@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Trabalho Sistemas Distribuídos, Fernando Francisco Druszcz</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+body {
+background-color: #6CBB3C;
+}
+</style></head>
+
+<body><div align="center">
+	<table style="font-family:Verdana; font-size:12pt" width="80%" cellpadding="4" border="0" bgcolor="white">
+
+	<tbody><tr><td>
+
+	<p><b>TRABALHO PRÁTICO 0:</b></p>
+	<p>Tarefa 0:</p>
+		<a href="./tarefas/tarefa0/tempo.c.txt">codigo</a>
+		<a href="./tarefas/tarefa0/log.txt">log</a>
+	<p>Tarefa 1:</p>
+		<a href="./tarefas/tarefa1/tempo.c.txt">codigo</a>
+		<a href="./tarefas/tarefa1/log.txt">log</a>
+	<p>Tarefa 2:</p>
+		<a href="./tarefas/tarefa2/tempo.c.txt">codigo</a>
+		<a href="./tarefas/tarefa2/log.txt">log</a>
+	<p>Tarefa 3:</p>
+		<a href="./tarefas/tarefa3/tempo.c.txt">codigo</a>
+		<a href="./tarefas/tarefa3/log.txt">log</a>
+	<p>Tarefa 4:</p>
+		<a href="./tarefas/tarefa4/tempo.c.txt">codigo</a>
+		<a href="./tarefas/tarefa4/log.txt">log</a>
+
+
+	<p>
+	<b>TRABALHO PRÁTICO</b>
+
+	</p>
+	<p><b>Relatório:</b></p> 
+
+	<p>
+		&nbsp;&nbsp;&nbsp;&nbsp; Durante a implementacao do algoritmo, busquei me manter o mais proximo possivel do algoritmo teorico, sem me preocupar com a eficiência dos métodos implementados. Assim, o algoritmo funciona de maneira bem direta: <br>
+		<ul>
+			&nbsp;&nbsp;&nbsp;&nbsp; Para cada teste no processo i <br>
+			<li>Buscamos a lista de processos que devem ser testados por i no cluster (testamos todos os clusters em sequência)</li>
+			<li>Testamos o estado de cada processo</li>
+			<li>Caso esteja num estado diferente do salvo no vetor state, atualizamos seu estado</li>
+			<li>Caso o testado esteja correto, atualizamos o vetor state com qualquer novidade que ele contenha</li>
+		</ul>
+		<br>
+		&nbsp;&nbsp;&nbsp;&nbsp; Para definir a lista de processos que devem ser testados pelo processo i no cluster s fazemos de uma maneira bem força bruta:
+		<ul>
+			<li>Para cada processo j diferente de i no sistema buscamos o C(j,s)</li>
+			<li>Verificamos, com base no state de i, se i é o primeiro processo correto de C(j,s)</li>
+			<li>Se for adicionamos ele à fila de processos a serem testados por i no cluster s</li>
+		</ul>
+	</p>
+
+	<p><b>Implementação da lógica do algoritmo</b></p>
+
+	<p><b>Latência e testes</b></p>
+
+	<p>
+		&nbsp;&nbsp;&nbsp;&nbsp;No <a href="./trabalho/log.txt">log1.txt</a> podemos observar o funcionamento do algoritmo, detectando as falhas, decidindo corretamente os processos a serem testados e atualizando o state com as novidades. Podemos observar também, a latência da detecção das falhas dos processos 2 e 5, que foram de 1 e 2 rodadas de teste respectivamente.
+		<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;No <a href="./trabalho/log_falha_7.txt">log2.txt</a> vemos um exemplo da pior latência, 3 rodadas (igual a log(N)), quando o último processo do sistema falha.
+	</p>
+
+	<p><b>Arquivos</b></p>
+	<p>Trabalho:</p>
+		<a href="./trabalho/tempo.c.txt">tempo.c</a>
+		<a href="./trabalho/cisj.c.txt">cisj.c</a>
+		<a href="./trabalho/cisj.h.txt">cisj.h</a>
+		<a href="./trabalho/smpl.c.txt">smpl.c</a>
+		<a href="./trabalho/rand.c.txt">rand.c</a>
+		<a href="./trabalho/smpl.h.txt">smpl.h</a>
+		<a href="./trabalho/makefile.txt">makefile</a>
+	<p>Logs:</p>
+		<a href="./trabalho/log.txt">log1.txt</a>
+		<a href="./trabalho/log_falha_7.txt">log2.txt</a>
+		
+
+	</td></tr></tbody>
+</body>
+
+</html>
