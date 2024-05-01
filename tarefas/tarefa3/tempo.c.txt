@@ -1,0 +1,151 @@
+/* Autor: Elias P. Duarte Jr.
+   Autor da tarefa: Fernando Francisco Druszcz
+   Data da Última Modificação: 29/abril/2024
+   Descrição: Nosso primeiro programa de simulação da disciplina Sistemas Distribuídos.
+     Vamos simular N processos, cada um conta o “tempo” independentemente
+    Um exemplo simples e significativo para captar o “espírito” da simulação */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include "smpl.h"
+
+// Vamos definir os EVENTOS
+#define test 1
+#define fault 2
+#define recovery 3
+
+// Vamos definir o descritor do processo
+
+typedef struct
+{
+  int id; // identificador de facility do SMPL
+  int *state;
+} TipoProcesso;
+
+TipoProcesso *processo;
+
+int main(int argc, char *argv[])
+{
+
+  static int N, // número de processos
+      token,    // indica o processo que está executando
+      event, r, i, j,
+      MaxTempoSimulac = 150;
+
+  static char fa_name[5];
+
+  if (argc != 2)
+  {
+    puts("Uso correto: tempo <número de processos>");
+    exit(1);
+  }
+
+  N = atoi(argv[1]);
+
+  smpl(0, "Um Exemplo de Simulação");
+  reset();
+  stream(1);
+
+  // inicializar processos
+
+  processo = (TipoProcesso *)malloc(sizeof(TipoProcesso) * N);
+
+  for (i = 0; i < N; i++)
+  {
+    memset(fa_name, '\0', 5);
+    sprintf(fa_name, "%d", i);
+    processo[i].id = facility(fa_name, 1);
+    // inicializa o vetor de estados
+    processo[i].state = (int *)malloc(sizeof(int) * N);
+    for (j = 0; j < N; j++){
+      if (j == i) // se for o proprio processo
+        processo[i].state[j] = 0;
+      else
+        processo[i].state[j] = -1;
+    }
+  }
+  // vamos fazer o escalonamento inicial de eventos
+
+  // nossos processos vão executar testes em intervalos de testes
+  // o intervalo de testes vai ser de 30 unidades de tempo
+  // a simulação começa no tempo 0 (zero) e vamos escalonar o primeiro teste de todos os
+  //       processos para o tempo 30.0
+
+  for (i = 0; i < N; i++)
+  {
+    schedule(test, 30.0, i);
+    if ((i != 1) && (i != 6) && (i != 7))
+      schedule(fault, 31.0, i);
+  }
+  // schedule(fault, 31.0, 1);
+  schedule(recovery, 61.0, 2);
+
+  // agora vem o loop principal do simulador
+
+  puts("===============================================================");
+  puts("           Sistemas Distribuídos Prof. Elias");
+  puts("          LOG do Trabalho Prático 0, Tarefa 3");
+  puts("      Digitar, compilar e executar o programa tempo.c");
+  printf("   Este programa foi executado para: N=%d processos.\n", N);
+  printf("           Tempo Total de Simulação = %d\n", MaxTempoSimulac);
+  puts("===============================================================");
+
+  while (time() < 150.0)
+  {
+    cause(&event, &token);
+    switch (event)
+    {
+    case test:
+      if (status(processo[token].id) != 0)
+        break; // se o processo está falho, não testa!
+
+      // Testando o processo seguinte ate achar um correto, ou todos falhos
+      int tokenSeguinte, teste;
+      int fimTestes = 0;
+
+      tokenSeguinte = token + 1;
+      if (tokenSeguinte >= N) // Ultimo processa testa o primeir
+        tokenSeguinte = 0;
+      while (fimTestes == 0)
+      {
+        teste = status(processo[tokenSeguinte].id);
+        if (teste != 0)
+        {
+          printf("O processo %d testou o processo %d falho no tempo %4.1f\n", token, tokenSeguinte, time());
+          // Atualiza o vetor de estado
+          processo[token].state[tokenSeguinte] = 1;
+        } else {
+          printf("O processo %d testou o processo %d correto no tempo %4.1f\n", token, tokenSeguinte, time());
+          // Atualiza o vetor de estado
+          processo[token].state[tokenSeguinte] = 0;
+        }
+
+        tokenSeguinte = tokenSeguinte + 1;
+        if (tokenSeguinte >= N) // Ultimo processa testa o primeir
+          tokenSeguinte = 0;
+
+        // Se encontrou um correto,  ou todos falhos
+        if ((teste == 0) || (tokenSeguinte == token))
+          fimTestes = 1;
+      }
+
+      printf ("Vetor de estados do processo %d:\n", token);
+      for (j = 0; j < N; j++){
+        printf ("%d: %d | ", j, processo[token].state[j]);
+      }
+      printf ("\n");
+
+      schedule(test, 30.0, token);
+      break;
+    case fault:
+      r = request(processo[token].id, token, 0);
+      printf("Socooorro!!! Sou o processo %d  e estou falhando no tempo %4.1f\n", token, time());
+      break;
+    case recovery:
+      release(processo[token].id, token);
+      printf("Viva!!! Sou o processo %d e acabo de recuperar no tempo %4.1f\n", token, time());
+      schedule(test, 1.0, token);
+      break;
+    } // switch
+  }   // while
+} // tempo.c

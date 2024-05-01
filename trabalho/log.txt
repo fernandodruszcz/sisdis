@@ -1,0 +1,3230 @@
+===============================================================
+           Sistemas Distribuídos Prof. Elias
+              LOG do Trabalho Prático 1
+      Digitar, compilar e executar o programa tempo.c
+   Este programa foi executado para: N=8 processos.
+           Tempo Total de Simulação = 400
+===============================================================
+
+> Comecando rodada 1 no tempo 30.000000
+Vetor de estados do processo 0:
+0: 0 | 1: -1 | 2: -1 | 3: -1 | 4: -1 | 5: -1 | 6: -1 | 7: -1 | 
+Montando a fila de testes para 0 (cluster 1)
+Inserindo 1 na fila, pos 0
+O processo 0 testou o processo 1 correto no tempo 30.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: -1 | 3: -1 | 4: -1 | 5: -1 | 6: -1 | 7: -1 | 
+Montando a fila de testes para 0 (cluster 2)
+Inserindo 2 na fila, pos 0
+Processo 3 sera testado por outro processo (1)
+O processo 0 testou o processo 2 correto no tempo 30.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 0 | 3: -1 | 4: -1 | 5: -1 | 6: -1 | 7: -1 | 
+Montando a fila de testes para 0 (cluster 3)
+Inserindo 4 na fila, pos 0
+Processo 5 sera testado por outro processo (1)
+Processo 6 sera testado por outro processo (2)
+Processo 7 sera testado por outro processo (2)
+O processo 0 testou o processo 4 correto no tempo 30.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 0 | 3: -1 | 4: 0 | 5: -1 | 6: -1 | 7: -1 | 
+Vetor de estados do processo 1:
+0: -1 | 1: 0 | 2: -1 | 3: -1 | 4: -1 | 5: -1 | 6: -1 | 7: -1 | 
+Montando a fila de testes para 1 (cluster 1)
+Inserindo 0 na fila, pos 0
+O processo 1 testou o processo 0 correto no tempo 30.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 0 | 3: -1 | 4: 0 | 5: -1 | 6: -1 | 7: -1 | 
+Montando a fila de testes para 1 (cluster 2)
+Processo 0 sera testado por outro processo (2)
+Processo 2 sera testado por outro processo (0)
+Inserindo 3 na fila, pos 0
+Processo 6 sera testado por outro processo (4)
+Processo 7 sera testado por outro processo (4)
+O processo 1 testou o processo 3 correto no tempo 30.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: -1 | 6: -1 | 7: -1 | 
+Montando a fila de testes para 1 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 2 sera testado por outro processo (4)
+Processo 3 sera testado por outro processo (4)
+Processo 4 sera testado por outro processo (0)
+Inserindo 5 na fila, pos 0
+Processo 6 sera testado por outro processo (2)
+Processo 7 sera testado por outro processo (3)
+O processo 1 testou o processo 5 correto no tempo 30.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: -1 | 7: -1 | 
+Vetor de estados do processo 2:
+0: -1 | 1: -1 | 2: 0 | 3: -1 | 4: -1 | 5: -1 | 6: -1 | 7: -1 | 
+Montando a fila de testes para 2 (cluster 1)
+Inserindo 3 na fila, pos 0
+O processo 2 testou o processo 3 correto no tempo 30.0
+Vetor de estados do processo 2:
+0: -1 | 1: -1 | 2: 0 | 3: 0 | 4: -1 | 5: -1 | 6: -1 | 7: -1 | 
+Montando a fila de testes para 2 (cluster 2)
+Inserindo 0 na fila, pos 0
+Processo 1 sera testado por outro processo (3)
+O processo 2 testou o processo 0 correto no tempo 30.0
+Vetor de estados do processo 2:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: -1 | 6: -1 | 7: -1 | 
+Montando a fila de testes para 2 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 1 sera testado por outro processo (4)
+Processo 3 sera testado por outro processo (4)
+Processo 4 sera testado por outro processo (0)
+Processo 5 sera testado por outro processo (1)
+Inserindo 6 na fila, pos 0
+Processo 7 sera testado por outro processo (3)
+O processo 2 testou o processo 6 correto no tempo 30.0
+Vetor de estados do processo 2:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: -1 | 6: 0 | 7: -1 | 
+Vetor de estados do processo 3:
+0: -1 | 1: -1 | 2: -1 | 3: 0 | 4: -1 | 5: -1 | 6: -1 | 7: -1 | 
+Montando a fila de testes para 3 (cluster 1)
+Inserindo 2 na fila, pos 0
+O processo 3 testou o processo 2 correto no tempo 30.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: -1 | 6: 0 | 7: -1 | 
+Montando a fila de testes para 3 (cluster 2)
+Processo 0 sera testado por outro processo (2)
+Inserindo 1 na fila, pos 0
+Processo 2 sera testado por outro processo (0)
+Processo 4 sera testado por outro processo (6)
+Processo 5 sera testado por outro processo (6)
+Processo 6 sera testado por outro processo (4)
+Processo 7 sera testado por outro processo (4)
+O processo 3 testou o processo 1 correto no tempo 30.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: -1 | 
+Montando a fila de testes para 3 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 1 sera testado por outro processo (5)
+Processo 2 sera testado por outro processo (6)
+Processo 4 sera testado por outro processo (0)
+Processo 5 sera testado por outro processo (1)
+Processo 6 sera testado por outro processo (2)
+Inserindo 7 na fila, pos 0
+O processo 3 testou o processo 7 correto no tempo 30.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 4:
+0: -1 | 1: -1 | 2: -1 | 3: -1 | 4: 0 | 5: -1 | 6: -1 | 7: -1 | 
+Montando a fila de testes para 4 (cluster 1)
+Inserindo 5 na fila, pos 0
+O processo 4 testou o processo 5 correto no tempo 30.0
+Vetor de estados do processo 4:
+0: -1 | 1: -1 | 2: -1 | 3: -1 | 4: 0 | 5: 0 | 6: -1 | 7: -1 | 
+Montando a fila de testes para 4 (cluster 2)
+Inserindo 6 na fila, pos 0
+Processo 7 sera testado por outro processo (5)
+O processo 4 testou o processo 6 correto no tempo 30.0
+Vetor de estados do processo 4:
+0: -1 | 1: -1 | 2: -1 | 3: -1 | 4: 0 | 5: 0 | 6: 0 | 7: -1 | 
+Montando a fila de testes para 4 (cluster 3)
+Inserindo 0 na fila, pos 0
+Processo 1 sera testado por outro processo (5)
+Processo 2 sera testado por outro processo (6)
+Processo 3 sera testado por outro processo (6)
+O processo 4 testou o processo 0 correto no tempo 30.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 0 | 3: -1 | 4: 0 | 5: 0 | 6: 0 | 7: -1 | 
+Vetor de estados do processo 5:
+0: -1 | 1: -1 | 2: -1 | 3: -1 | 4: -1 | 5: 0 | 6: -1 | 7: -1 | 
+Montando a fila de testes para 5 (cluster 1)
+Inserindo 4 na fila, pos 0
+O processo 5 testou o processo 4 correto no tempo 30.0
+Vetor de estados do processo 5:
+0: 0 | 1: 0 | 2: 0 | 3: -1 | 4: 0 | 5: 0 | 6: 0 | 7: -1 | 
+Montando a fila de testes para 5 (cluster 2)
+Processo 0 sera testado por outro processo (2)
+Processo 1 sera testado por outro processo (2)
+Processo 2 sera testado por outro processo (0)
+Processo 3 sera testado por outro processo (1)
+Processo 4 sera testado por outro processo (6)
+Processo 6 sera testado por outro processo (4)
+Inserindo 7 na fila, pos 0
+O processo 5 testou o processo 7 correto no tempo 30.0
+Vetor de estados do processo 5:
+0: 0 | 1: 0 | 2: 0 | 3: -1 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 5 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Inserindo 1 na fila, pos 0
+Processo 2 sera testado por outro processo (6)
+Processo 3 sera testado por outro processo (7)
+Processo 4 sera testado por outro processo (0)
+Processo 6 sera testado por outro processo (2)
+Processo 7 sera testado por outro processo (2)
+O processo 5 testou o processo 1 correto no tempo 30.0
+Vetor de estados do processo 5:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 6:
+0: -1 | 1: -1 | 2: -1 | 3: -1 | 4: -1 | 5: -1 | 6: 0 | 7: -1 | 
+Montando a fila de testes para 6 (cluster 1)
+Inserindo 7 na fila, pos 0
+O processo 6 testou o processo 7 correto no tempo 30.0
+Vetor de estados do processo 6:
+0: -1 | 1: -1 | 2: -1 | 3: -1 | 4: -1 | 5: -1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 6 (cluster 2)
+Inserindo 4 na fila, pos 0
+Processo 5 sera testado por outro processo (7)
+O processo 6 testou o processo 4 correto no tempo 30.0
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 0 | 3: -1 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 6 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 1 sera testado por outro processo (5)
+Inserindo 2 na fila, pos 0
+Processo 3 sera testado por outro processo (7)
+Processo 4 sera testado por outro processo (0)
+Processo 5 sera testado por outro processo (1)
+Processo 7 sera testado por outro processo (2)
+O processo 6 testou o processo 2 correto no tempo 30.0
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 7:
+0: -1 | 1: -1 | 2: -1 | 3: -1 | 4: -1 | 5: -1 | 6: -1 | 7: 0 | 
+Montando a fila de testes para 7 (cluster 1)
+Inserindo 6 na fila, pos 0
+O processo 7 testou o processo 6 correto no tempo 30.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 7 (cluster 2)
+Processo 0 sera testado por outro processo (2)
+Processo 1 sera testado por outro processo (3)
+Processo 2 sera testado por outro processo (0)
+Processo 3 sera testado por outro processo (1)
+Processo 4 sera testado por outro processo (6)
+Inserindo 5 na fila, pos 0
+Processo 6 sera testado por outro processo (4)
+O processo 7 testou o processo 5 correto no tempo 30.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 7 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 1 sera testado por outro processo (5)
+Processo 2 sera testado por outro processo (6)
+Inserindo 3 na fila, pos 0
+Processo 4 sera testado por outro processo (0)
+Processo 5 sera testado por outro processo (1)
+Processo 6 sera testado por outro processo (2)
+O processo 7 testou o processo 3 correto no tempo 30.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+
+> Comecando rodada 2 no tempo 60.000000
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 0 | 3: -1 | 4: 0 | 5: -1 | 6: -1 | 7: -1 | 
+Montando a fila de testes para 0 (cluster 1)
+Inserindo 1 na fila, pos 0
+Processo 3 sera testado por outro processo (2)
+Processo 5 sera testado por outro processo (4)
+O processo 0 testou o processo 1 correto no tempo 60.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: -1 | 7: -1 | 
+Montando a fila de testes para 0 (cluster 2)
+Processo 1 sera testado por outro processo (3)
+Inserindo 2 na fila, pos 0
+Processo 3 sera testado por outro processo (1)
+Processo 6 sera testado por outro processo (4)
+Processo 7 sera testado por outro processo (5)
+O processo 0 testou o processo 2 correto no tempo 60.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: -1 | 
+Montando a fila de testes para 0 (cluster 3)
+Processo 1 sera testado por outro processo (5)
+Processo 2 sera testado por outro processo (6)
+Processo 3 sera testado por outro processo (6)
+Inserindo 4 na fila, pos 0
+Processo 5 sera testado por outro processo (1)
+Processo 6 sera testado por outro processo (2)
+Processo 7 sera testado por outro processo (3)
+O processo 0 testou o processo 4 correto no tempo 60.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: -1 | 
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: -1 | 7: -1 | 
+Montando a fila de testes para 1 (cluster 1)
+Inserindo 0 na fila, pos 0
+Processo 2 sera testado por outro processo (3)
+Processo 3 sera testado por outro processo (2)
+Processo 4 sera testado por outro processo (5)
+Processo 5 sera testado por outro processo (4)
+O processo 1 testou o processo 0 correto no tempo 60.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: -1 | 
+Montando a fila de testes para 1 (cluster 2)
+Processo 0 sera testado por outro processo (2)
+Processo 2 sera testado por outro processo (0)
+Inserindo 3 na fila, pos 0
+Processo 4 sera testado por outro processo (6)
+Processo 5 sera testado por outro processo (6)
+Processo 6 sera testado por outro processo (4)
+Processo 7 sera testado por outro processo (5)
+O processo 1 testou o processo 3 correto no tempo 60.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 1 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 2 sera testado por outro processo (6)
+Processo 3 sera testado por outro processo (7)
+Processo 4 sera testado por outro processo (0)
+Inserindo 5 na fila, pos 0
+Processo 6 sera testado por outro processo (2)
+Processo 7 sera testado por outro processo (3)
+O processo 1 testou o processo 5 correto no tempo 60.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 2:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: -1 | 6: 0 | 7: -1 | 
+Montando a fila de testes para 2 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Inserindo 3 na fila, pos 0
+Processo 5 sera testado por outro processo (4)
+Processo 7 sera testado por outro processo (6)
+O processo 2 testou o processo 3 correto no tempo 60.0
+Vetor de estados do processo 2:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 2 (cluster 2)
+Inserindo 0 na fila, pos 0
+Processo 1 sera testado por outro processo (3)
+Processo 3 sera testado por outro processo (1)
+Processo 4 sera testado por outro processo (6)
+Processo 5 sera testado por outro processo (7)
+Processo 6 sera testado por outro processo (4)
+Processo 7 sera testado por outro processo (5)
+O processo 2 testou o processo 0 correto no tempo 60.0
+Vetor de estados do processo 2:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 2 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 1 sera testado por outro processo (5)
+Processo 3 sera testado por outro processo (7)
+Processo 4 sera testado por outro processo (0)
+Processo 5 sera testado por outro processo (1)
+Inserindo 6 na fila, pos 0
+Processo 7 sera testado por outro processo (3)
+O processo 2 testou o processo 6 correto no tempo 60.0
+Vetor de estados do processo 2:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 3 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Inserindo 2 na fila, pos 0
+Processo 4 sera testado por outro processo (5)
+Processo 5 sera testado por outro processo (4)
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 3 testou o processo 2 correto no tempo 60.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 3 (cluster 2)
+Processo 0 sera testado por outro processo (2)
+Inserindo 1 na fila, pos 0
+Processo 2 sera testado por outro processo (0)
+Processo 4 sera testado por outro processo (6)
+Processo 5 sera testado por outro processo (7)
+Processo 6 sera testado por outro processo (4)
+Processo 7 sera testado por outro processo (5)
+O processo 3 testou o processo 1 correto no tempo 60.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 3 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 1 sera testado por outro processo (5)
+Processo 2 sera testado por outro processo (6)
+Processo 4 sera testado por outro processo (0)
+Processo 5 sera testado por outro processo (1)
+Processo 6 sera testado por outro processo (2)
+Inserindo 7 na fila, pos 0
+O processo 3 testou o processo 7 correto no tempo 60.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 0 | 3: -1 | 4: 0 | 5: 0 | 6: 0 | 7: -1 | 
+Montando a fila de testes para 4 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Processo 3 sera testado por outro processo (2)
+Inserindo 5 na fila, pos 0
+Processo 7 sera testado por outro processo (6)
+O processo 4 testou o processo 5 correto no tempo 60.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 4 (cluster 2)
+Processo 0 sera testado por outro processo (2)
+Processo 1 sera testado por outro processo (3)
+Processo 2 sera testado por outro processo (0)
+Processo 3 sera testado por outro processo (1)
+Processo 5 sera testado por outro processo (7)
+Inserindo 6 na fila, pos 0
+Processo 7 sera testado por outro processo (5)
+O processo 4 testou o processo 6 correto no tempo 60.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 4 (cluster 3)
+Inserindo 0 na fila, pos 0
+Processo 1 sera testado por outro processo (5)
+Processo 2 sera testado por outro processo (6)
+Processo 3 sera testado por outro processo (7)
+Processo 5 sera testado por outro processo (1)
+Processo 6 sera testado por outro processo (2)
+Processo 7 sera testado por outro processo (3)
+O processo 4 testou o processo 0 correto no tempo 60.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 5:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 5 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Processo 2 sera testado por outro processo (3)
+Processo 3 sera testado por outro processo (2)
+Inserindo 4 na fila, pos 0
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 5 testou o processo 4 correto no tempo 60.0
+Vetor de estados do processo 5:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 5 (cluster 2)
+Processo 0 sera testado por outro processo (2)
+Processo 1 sera testado por outro processo (3)
+Processo 2 sera testado por outro processo (0)
+Processo 3 sera testado por outro processo (1)
+Processo 4 sera testado por outro processo (6)
+Processo 6 sera testado por outro processo (4)
+Inserindo 7 na fila, pos 0
+O processo 5 testou o processo 7 correto no tempo 60.0
+Vetor de estados do processo 5:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 5 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Inserindo 1 na fila, pos 0
+Processo 2 sera testado por outro processo (6)
+Processo 3 sera testado por outro processo (7)
+Processo 4 sera testado por outro processo (0)
+Processo 6 sera testado por outro processo (2)
+Processo 7 sera testado por outro processo (3)
+O processo 5 testou o processo 1 correto no tempo 60.0
+Vetor de estados do processo 5:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 6 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Processo 2 sera testado por outro processo (3)
+Processo 3 sera testado por outro processo (2)
+Processo 4 sera testado por outro processo (5)
+Processo 5 sera testado por outro processo (4)
+Inserindo 7 na fila, pos 0
+O processo 6 testou o processo 7 correto no tempo 60.0
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 6 (cluster 2)
+Processo 0 sera testado por outro processo (2)
+Processo 1 sera testado por outro processo (3)
+Processo 2 sera testado por outro processo (0)
+Processo 3 sera testado por outro processo (1)
+Inserindo 4 na fila, pos 0
+Processo 5 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (5)
+O processo 6 testou o processo 4 correto no tempo 60.0
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 6 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 1 sera testado por outro processo (5)
+Inserindo 2 na fila, pos 0
+Processo 3 sera testado por outro processo (7)
+Processo 4 sera testado por outro processo (0)
+Processo 5 sera testado por outro processo (1)
+Processo 7 sera testado por outro processo (3)
+O processo 6 testou o processo 2 correto no tempo 60.0
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 7 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Processo 2 sera testado por outro processo (3)
+Processo 3 sera testado por outro processo (2)
+Processo 4 sera testado por outro processo (5)
+Processo 5 sera testado por outro processo (4)
+Inserindo 6 na fila, pos 0
+O processo 7 testou o processo 6 correto no tempo 60.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 7 (cluster 2)
+Processo 0 sera testado por outro processo (2)
+Processo 1 sera testado por outro processo (3)
+Processo 2 sera testado por outro processo (0)
+Processo 3 sera testado por outro processo (1)
+Processo 4 sera testado por outro processo (6)
+Inserindo 5 na fila, pos 0
+Processo 6 sera testado por outro processo (4)
+O processo 7 testou o processo 5 correto no tempo 60.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 7 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 1 sera testado por outro processo (5)
+Processo 2 sera testado por outro processo (6)
+Inserindo 3 na fila, pos 0
+Processo 4 sera testado por outro processo (0)
+Processo 5 sera testado por outro processo (1)
+Processo 6 sera testado por outro processo (2)
+O processo 7 testou o processo 3 correto no tempo 60.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+
+> Comecando rodada 3 no tempo 90.000000
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: -1 | 
+Montando a fila de testes para 0 (cluster 1)
+Inserindo 1 na fila, pos 0
+Processo 2 sera testado por outro processo (3)
+Processo 3 sera testado por outro processo (2)
+Processo 4 sera testado por outro processo (5)
+Processo 5 sera testado por outro processo (4)
+Processo 7 sera testado por outro processo (6)
+O processo 0 testou o processo 1 correto no tempo 90.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 0 (cluster 2)
+Processo 1 sera testado por outro processo (3)
+Inserindo 2 na fila, pos 0
+Processo 3 sera testado por outro processo (1)
+Processo 4 sera testado por outro processo (6)
+Processo 5 sera testado por outro processo (7)
+Processo 6 sera testado por outro processo (4)
+Processo 7 sera testado por outro processo (5)
+O processo 0 testou o processo 2 correto no tempo 90.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 0 (cluster 3)
+Processo 1 sera testado por outro processo (5)
+Processo 2 sera testado por outro processo (6)
+Processo 3 sera testado por outro processo (7)
+Inserindo 4 na fila, pos 0
+Processo 5 sera testado por outro processo (1)
+Processo 6 sera testado por outro processo (2)
+Processo 7 sera testado por outro processo (3)
+O processo 0 testou o processo 4 correto no tempo 90.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 1 (cluster 1)
+Inserindo 0 na fila, pos 0
+Processo 2 sera testado por outro processo (3)
+Processo 3 sera testado por outro processo (2)
+Processo 4 sera testado por outro processo (5)
+Processo 5 sera testado por outro processo (4)
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 1 testou o processo 0 correto no tempo 90.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 1 (cluster 2)
+Processo 0 sera testado por outro processo (2)
+Processo 2 sera testado por outro processo (0)
+Inserindo 3 na fila, pos 0
+Processo 4 sera testado por outro processo (6)
+Processo 5 sera testado por outro processo (7)
+Processo 6 sera testado por outro processo (4)
+Processo 7 sera testado por outro processo (5)
+O processo 1 testou o processo 3 correto no tempo 90.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 1 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 2 sera testado por outro processo (6)
+Processo 3 sera testado por outro processo (7)
+Processo 4 sera testado por outro processo (0)
+Inserindo 5 na fila, pos 0
+Processo 6 sera testado por outro processo (2)
+Processo 7 sera testado por outro processo (3)
+O processo 1 testou o processo 5 correto no tempo 90.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 2:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 2 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Inserindo 3 na fila, pos 0
+Processo 4 sera testado por outro processo (5)
+Processo 5 sera testado por outro processo (4)
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 2 testou o processo 3 correto no tempo 90.0
+Vetor de estados do processo 2:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 2 (cluster 2)
+Inserindo 0 na fila, pos 0
+Processo 1 sera testado por outro processo (3)
+Processo 3 sera testado por outro processo (1)
+Processo 4 sera testado por outro processo (6)
+Processo 5 sera testado por outro processo (7)
+Processo 6 sera testado por outro processo (4)
+Processo 7 sera testado por outro processo (5)
+O processo 2 testou o processo 0 correto no tempo 90.0
+Vetor de estados do processo 2:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 2 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 1 sera testado por outro processo (5)
+Processo 3 sera testado por outro processo (7)
+Processo 4 sera testado por outro processo (0)
+Processo 5 sera testado por outro processo (1)
+Inserindo 6 na fila, pos 0
+Processo 7 sera testado por outro processo (3)
+O processo 2 testou o processo 6 correto no tempo 90.0
+Vetor de estados do processo 2:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 3 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Inserindo 2 na fila, pos 0
+Processo 4 sera testado por outro processo (5)
+Processo 5 sera testado por outro processo (4)
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 3 testou o processo 2 correto no tempo 90.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 3 (cluster 2)
+Processo 0 sera testado por outro processo (2)
+Inserindo 1 na fila, pos 0
+Processo 2 sera testado por outro processo (0)
+Processo 4 sera testado por outro processo (6)
+Processo 5 sera testado por outro processo (7)
+Processo 6 sera testado por outro processo (4)
+Processo 7 sera testado por outro processo (5)
+O processo 3 testou o processo 1 correto no tempo 90.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 3 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 1 sera testado por outro processo (5)
+Processo 2 sera testado por outro processo (6)
+Processo 4 sera testado por outro processo (0)
+Processo 5 sera testado por outro processo (1)
+Processo 6 sera testado por outro processo (2)
+Inserindo 7 na fila, pos 0
+O processo 3 testou o processo 7 correto no tempo 90.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 4 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Processo 2 sera testado por outro processo (3)
+Processo 3 sera testado por outro processo (2)
+Inserindo 5 na fila, pos 0
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 4 testou o processo 5 correto no tempo 90.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 4 (cluster 2)
+Processo 0 sera testado por outro processo (2)
+Processo 1 sera testado por outro processo (3)
+Processo 2 sera testado por outro processo (0)
+Processo 3 sera testado por outro processo (1)
+Processo 5 sera testado por outro processo (7)
+Inserindo 6 na fila, pos 0
+Processo 7 sera testado por outro processo (5)
+O processo 4 testou o processo 6 correto no tempo 90.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 4 (cluster 3)
+Inserindo 0 na fila, pos 0
+Processo 1 sera testado por outro processo (5)
+Processo 2 sera testado por outro processo (6)
+Processo 3 sera testado por outro processo (7)
+Processo 5 sera testado por outro processo (1)
+Processo 6 sera testado por outro processo (2)
+Processo 7 sera testado por outro processo (3)
+O processo 4 testou o processo 0 correto no tempo 90.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 5:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 5 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Processo 2 sera testado por outro processo (3)
+Processo 3 sera testado por outro processo (2)
+Inserindo 4 na fila, pos 0
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 5 testou o processo 4 correto no tempo 90.0
+Vetor de estados do processo 5:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 5 (cluster 2)
+Processo 0 sera testado por outro processo (2)
+Processo 1 sera testado por outro processo (3)
+Processo 2 sera testado por outro processo (0)
+Processo 3 sera testado por outro processo (1)
+Processo 4 sera testado por outro processo (6)
+Processo 6 sera testado por outro processo (4)
+Inserindo 7 na fila, pos 0
+O processo 5 testou o processo 7 correto no tempo 90.0
+Vetor de estados do processo 5:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 5 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Inserindo 1 na fila, pos 0
+Processo 2 sera testado por outro processo (6)
+Processo 3 sera testado por outro processo (7)
+Processo 4 sera testado por outro processo (0)
+Processo 6 sera testado por outro processo (2)
+Processo 7 sera testado por outro processo (3)
+O processo 5 testou o processo 1 correto no tempo 90.0
+Vetor de estados do processo 5:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 6 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Processo 2 sera testado por outro processo (3)
+Processo 3 sera testado por outro processo (2)
+Processo 4 sera testado por outro processo (5)
+Processo 5 sera testado por outro processo (4)
+Inserindo 7 na fila, pos 0
+O processo 6 testou o processo 7 correto no tempo 90.0
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 6 (cluster 2)
+Processo 0 sera testado por outro processo (2)
+Processo 1 sera testado por outro processo (3)
+Processo 2 sera testado por outro processo (0)
+Processo 3 sera testado por outro processo (1)
+Inserindo 4 na fila, pos 0
+Processo 5 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (5)
+O processo 6 testou o processo 4 correto no tempo 90.0
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 6 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 1 sera testado por outro processo (5)
+Inserindo 2 na fila, pos 0
+Processo 3 sera testado por outro processo (7)
+Processo 4 sera testado por outro processo (0)
+Processo 5 sera testado por outro processo (1)
+Processo 7 sera testado por outro processo (3)
+O processo 6 testou o processo 2 correto no tempo 90.0
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 7 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Processo 2 sera testado por outro processo (3)
+Processo 3 sera testado por outro processo (2)
+Processo 4 sera testado por outro processo (5)
+Processo 5 sera testado por outro processo (4)
+Inserindo 6 na fila, pos 0
+O processo 7 testou o processo 6 correto no tempo 90.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 7 (cluster 2)
+Processo 0 sera testado por outro processo (2)
+Processo 1 sera testado por outro processo (3)
+Processo 2 sera testado por outro processo (0)
+Processo 3 sera testado por outro processo (1)
+Processo 4 sera testado por outro processo (6)
+Inserindo 5 na fila, pos 0
+Processo 6 sera testado por outro processo (4)
+O processo 7 testou o processo 5 correto no tempo 90.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 7 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 1 sera testado por outro processo (5)
+Processo 2 sera testado por outro processo (6)
+Inserindo 3 na fila, pos 0
+Processo 4 sera testado por outro processo (0)
+Processo 5 sera testado por outro processo (1)
+Processo 6 sera testado por outro processo (2)
+O processo 7 testou o processo 3 correto no tempo 90.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+
+> Comecando rodada 4 no tempo 120.000000
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 0 (cluster 1)
+Inserindo 1 na fila, pos 0
+Processo 2 sera testado por outro processo (3)
+Processo 3 sera testado por outro processo (2)
+Processo 4 sera testado por outro processo (5)
+Processo 5 sera testado por outro processo (4)
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 0 testou o processo 1 correto no tempo 120.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 0 (cluster 2)
+Processo 1 sera testado por outro processo (3)
+Inserindo 2 na fila, pos 0
+Processo 3 sera testado por outro processo (1)
+Processo 4 sera testado por outro processo (6)
+Processo 5 sera testado por outro processo (7)
+Processo 6 sera testado por outro processo (4)
+Processo 7 sera testado por outro processo (5)
+O processo 0 testou o processo 2 correto no tempo 120.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 0 (cluster 3)
+Processo 1 sera testado por outro processo (5)
+Processo 2 sera testado por outro processo (6)
+Processo 3 sera testado por outro processo (7)
+Inserindo 4 na fila, pos 0
+Processo 5 sera testado por outro processo (1)
+Processo 6 sera testado por outro processo (2)
+Processo 7 sera testado por outro processo (3)
+O processo 0 testou o processo 4 correto no tempo 120.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 1 (cluster 1)
+Inserindo 0 na fila, pos 0
+Processo 2 sera testado por outro processo (3)
+Processo 3 sera testado por outro processo (2)
+Processo 4 sera testado por outro processo (5)
+Processo 5 sera testado por outro processo (4)
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 1 testou o processo 0 correto no tempo 120.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 1 (cluster 2)
+Processo 0 sera testado por outro processo (2)
+Processo 2 sera testado por outro processo (0)
+Inserindo 3 na fila, pos 0
+Processo 4 sera testado por outro processo (6)
+Processo 5 sera testado por outro processo (7)
+Processo 6 sera testado por outro processo (4)
+Processo 7 sera testado por outro processo (5)
+O processo 1 testou o processo 3 correto no tempo 120.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 1 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 2 sera testado por outro processo (6)
+Processo 3 sera testado por outro processo (7)
+Processo 4 sera testado por outro processo (0)
+Inserindo 5 na fila, pos 0
+Processo 6 sera testado por outro processo (2)
+Processo 7 sera testado por outro processo (3)
+O processo 1 testou o processo 5 correto no tempo 120.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 2:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 2 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Inserindo 3 na fila, pos 0
+Processo 4 sera testado por outro processo (5)
+Processo 5 sera testado por outro processo (4)
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 2 testou o processo 3 correto no tempo 120.0
+Vetor de estados do processo 2:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 2 (cluster 2)
+Inserindo 0 na fila, pos 0
+Processo 1 sera testado por outro processo (3)
+Processo 3 sera testado por outro processo (1)
+Processo 4 sera testado por outro processo (6)
+Processo 5 sera testado por outro processo (7)
+Processo 6 sera testado por outro processo (4)
+Processo 7 sera testado por outro processo (5)
+O processo 2 testou o processo 0 correto no tempo 120.0
+Vetor de estados do processo 2:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 2 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 1 sera testado por outro processo (5)
+Processo 3 sera testado por outro processo (7)
+Processo 4 sera testado por outro processo (0)
+Processo 5 sera testado por outro processo (1)
+Inserindo 6 na fila, pos 0
+Processo 7 sera testado por outro processo (3)
+O processo 2 testou o processo 6 correto no tempo 120.0
+Vetor de estados do processo 2:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 3 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Inserindo 2 na fila, pos 0
+Processo 4 sera testado por outro processo (5)
+Processo 5 sera testado por outro processo (4)
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 3 testou o processo 2 correto no tempo 120.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 3 (cluster 2)
+Processo 0 sera testado por outro processo (2)
+Inserindo 1 na fila, pos 0
+Processo 2 sera testado por outro processo (0)
+Processo 4 sera testado por outro processo (6)
+Processo 5 sera testado por outro processo (7)
+Processo 6 sera testado por outro processo (4)
+Processo 7 sera testado por outro processo (5)
+O processo 3 testou o processo 1 correto no tempo 120.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 3 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 1 sera testado por outro processo (5)
+Processo 2 sera testado por outro processo (6)
+Processo 4 sera testado por outro processo (0)
+Processo 5 sera testado por outro processo (1)
+Processo 6 sera testado por outro processo (2)
+Inserindo 7 na fila, pos 0
+O processo 3 testou o processo 7 correto no tempo 120.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 4 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Processo 2 sera testado por outro processo (3)
+Processo 3 sera testado por outro processo (2)
+Inserindo 5 na fila, pos 0
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 4 testou o processo 5 correto no tempo 120.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 4 (cluster 2)
+Processo 0 sera testado por outro processo (2)
+Processo 1 sera testado por outro processo (3)
+Processo 2 sera testado por outro processo (0)
+Processo 3 sera testado por outro processo (1)
+Processo 5 sera testado por outro processo (7)
+Inserindo 6 na fila, pos 0
+Processo 7 sera testado por outro processo (5)
+O processo 4 testou o processo 6 correto no tempo 120.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 4 (cluster 3)
+Inserindo 0 na fila, pos 0
+Processo 1 sera testado por outro processo (5)
+Processo 2 sera testado por outro processo (6)
+Processo 3 sera testado por outro processo (7)
+Processo 5 sera testado por outro processo (1)
+Processo 6 sera testado por outro processo (2)
+Processo 7 sera testado por outro processo (3)
+O processo 4 testou o processo 0 correto no tempo 120.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 5:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 5 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Processo 2 sera testado por outro processo (3)
+Processo 3 sera testado por outro processo (2)
+Inserindo 4 na fila, pos 0
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 5 testou o processo 4 correto no tempo 120.0
+Vetor de estados do processo 5:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 5 (cluster 2)
+Processo 0 sera testado por outro processo (2)
+Processo 1 sera testado por outro processo (3)
+Processo 2 sera testado por outro processo (0)
+Processo 3 sera testado por outro processo (1)
+Processo 4 sera testado por outro processo (6)
+Processo 6 sera testado por outro processo (4)
+Inserindo 7 na fila, pos 0
+O processo 5 testou o processo 7 correto no tempo 120.0
+Vetor de estados do processo 5:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 5 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Inserindo 1 na fila, pos 0
+Processo 2 sera testado por outro processo (6)
+Processo 3 sera testado por outro processo (7)
+Processo 4 sera testado por outro processo (0)
+Processo 6 sera testado por outro processo (2)
+Processo 7 sera testado por outro processo (3)
+O processo 5 testou o processo 1 correto no tempo 120.0
+Vetor de estados do processo 5:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 6 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Processo 2 sera testado por outro processo (3)
+Processo 3 sera testado por outro processo (2)
+Processo 4 sera testado por outro processo (5)
+Processo 5 sera testado por outro processo (4)
+Inserindo 7 na fila, pos 0
+O processo 6 testou o processo 7 correto no tempo 120.0
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 6 (cluster 2)
+Processo 0 sera testado por outro processo (2)
+Processo 1 sera testado por outro processo (3)
+Processo 2 sera testado por outro processo (0)
+Processo 3 sera testado por outro processo (1)
+Inserindo 4 na fila, pos 0
+Processo 5 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (5)
+O processo 6 testou o processo 4 correto no tempo 120.0
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 6 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 1 sera testado por outro processo (5)
+Inserindo 2 na fila, pos 0
+Processo 3 sera testado por outro processo (7)
+Processo 4 sera testado por outro processo (0)
+Processo 5 sera testado por outro processo (1)
+Processo 7 sera testado por outro processo (3)
+O processo 6 testou o processo 2 correto no tempo 120.0
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 7 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Processo 2 sera testado por outro processo (3)
+Processo 3 sera testado por outro processo (2)
+Processo 4 sera testado por outro processo (5)
+Processo 5 sera testado por outro processo (4)
+Inserindo 6 na fila, pos 0
+O processo 7 testou o processo 6 correto no tempo 120.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 7 (cluster 2)
+Processo 0 sera testado por outro processo (2)
+Processo 1 sera testado por outro processo (3)
+Processo 2 sera testado por outro processo (0)
+Processo 3 sera testado por outro processo (1)
+Processo 4 sera testado por outro processo (6)
+Inserindo 5 na fila, pos 0
+Processo 6 sera testado por outro processo (4)
+O processo 7 testou o processo 5 correto no tempo 120.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 7 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 1 sera testado por outro processo (5)
+Processo 2 sera testado por outro processo (6)
+Inserindo 3 na fila, pos 0
+Processo 4 sera testado por outro processo (0)
+Processo 5 sera testado por outro processo (1)
+Processo 6 sera testado por outro processo (2)
+O processo 7 testou o processo 3 correto no tempo 120.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Socooorro!!! Sou o processo 2  e estou falhando no tempo 121.0
+!!! OCORREU NOVO EVENTO
+Rodada 4 tempo 121.000000
+
+> Comecando rodada 5 no tempo 150.000000
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 0 (cluster 1)
+Inserindo 1 na fila, pos 0
+Processo 2 sera testado por outro processo (3)
+Processo 3 sera testado por outro processo (2)
+Processo 4 sera testado por outro processo (5)
+Processo 5 sera testado por outro processo (4)
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 0 testou o processo 1 correto no tempo 150.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 0 (cluster 2)
+Processo 1 sera testado por outro processo (3)
+Inserindo 2 na fila, pos 0
+Processo 3 sera testado por outro processo (1)
+Processo 4 sera testado por outro processo (6)
+Processo 5 sera testado por outro processo (7)
+Processo 6 sera testado por outro processo (4)
+Processo 7 sera testado por outro processo (5)
+O processo 0 testou o processo 2 falho no tempo 150.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 0 (cluster 3)
+Processo 1 sera testado por outro processo (5)
+Processo 2 sera testado por outro processo (6)
+Processo 3 sera testado por outro processo (7)
+Inserindo 4 na fila, pos 0
+Processo 5 sera testado por outro processo (1)
+Processo 6 sera testado por outro processo (3)
+Processo 7 sera testado por outro processo (3)
+O processo 0 testou o processo 4 correto no tempo 150.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 1 (cluster 1)
+Inserindo 0 na fila, pos 0
+Processo 2 sera testado por outro processo (3)
+Processo 3 sera testado por outro processo (2)
+Processo 4 sera testado por outro processo (5)
+Processo 5 sera testado por outro processo (4)
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 1 testou o processo 0 correto no tempo 150.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 1 (cluster 2)
+Processo 0 sera testado por outro processo (3)
+Processo 2 sera testado por outro processo (0)
+Inserindo 3 na fila, pos 0
+Processo 4 sera testado por outro processo (6)
+Processo 5 sera testado por outro processo (7)
+Processo 6 sera testado por outro processo (4)
+Processo 7 sera testado por outro processo (5)
+O processo 1 testou o processo 3 correto no tempo 150.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 1 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 2 sera testado por outro processo (6)
+Processo 3 sera testado por outro processo (7)
+Processo 4 sera testado por outro processo (0)
+Inserindo 5 na fila, pos 0
+Processo 6 sera testado por outro processo (3)
+Processo 7 sera testado por outro processo (3)
+O processo 1 testou o processo 5 correto no tempo 150.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 3 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Inserindo 2 na fila, pos 0
+Processo 4 sera testado por outro processo (5)
+Processo 5 sera testado por outro processo (4)
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 3 testou o processo 2 falho no tempo 150.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 3 (cluster 2)
+Inserindo 0 na fila, pos 0
+Inserindo 1 na fila, pos 1
+Processo 2 sera testado por outro processo (0)
+Processo 4 sera testado por outro processo (6)
+Processo 5 sera testado por outro processo (7)
+Processo 6 sera testado por outro processo (4)
+Processo 7 sera testado por outro processo (5)
+O processo 3 testou o processo 0 correto no tempo 150.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+O processo 3 testou o processo 1 correto no tempo 150.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 3 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 1 sera testado por outro processo (5)
+Processo 2 sera testado por outro processo (6)
+Processo 4 sera testado por outro processo (0)
+Processo 5 sera testado por outro processo (1)
+Inserindo 6 na fila, pos 0
+Inserindo 7 na fila, pos 1
+O processo 3 testou o processo 6 correto no tempo 150.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+O processo 3 testou o processo 7 correto no tempo 150.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 4 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Processo 2 sera testado por outro processo (3)
+Processo 3 sera testado por outro processo (2)
+Inserindo 5 na fila, pos 0
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 4 testou o processo 5 correto no tempo 150.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 4 (cluster 2)
+Processo 0 sera testado por outro processo (2)
+Processo 1 sera testado por outro processo (3)
+Processo 2 sera testado por outro processo (0)
+Processo 3 sera testado por outro processo (1)
+Processo 5 sera testado por outro processo (7)
+Inserindo 6 na fila, pos 0
+Processo 7 sera testado por outro processo (5)
+O processo 4 testou o processo 6 correto no tempo 150.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 4 (cluster 3)
+Inserindo 0 na fila, pos 0
+Processo 1 sera testado por outro processo (5)
+Processo 2 sera testado por outro processo (6)
+Processo 3 sera testado por outro processo (7)
+Processo 5 sera testado por outro processo (1)
+Processo 6 sera testado por outro processo (2)
+Processo 7 sera testado por outro processo (3)
+O processo 4 testou o processo 0 correto no tempo 150.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 5:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 5 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Processo 2 sera testado por outro processo (3)
+Processo 3 sera testado por outro processo (2)
+Inserindo 4 na fila, pos 0
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 5 testou o processo 4 correto no tempo 150.0
+Vetor de estados do processo 5:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 5 (cluster 2)
+Processo 0 sera testado por outro processo (3)
+Processo 1 sera testado por outro processo (3)
+Processo 2 sera testado por outro processo (0)
+Processo 3 sera testado por outro processo (1)
+Processo 4 sera testado por outro processo (6)
+Processo 6 sera testado por outro processo (4)
+Inserindo 7 na fila, pos 0
+O processo 5 testou o processo 7 correto no tempo 150.0
+Vetor de estados do processo 5:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 5 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Inserindo 1 na fila, pos 0
+Processo 2 sera testado por outro processo (6)
+Processo 3 sera testado por outro processo (7)
+Processo 4 sera testado por outro processo (0)
+Processo 6 sera testado por outro processo (3)
+Processo 7 sera testado por outro processo (3)
+O processo 5 testou o processo 1 correto no tempo 150.0
+Vetor de estados do processo 5:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 6 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Processo 2 sera testado por outro processo (3)
+Processo 3 sera testado por outro processo (2)
+Processo 4 sera testado por outro processo (5)
+Processo 5 sera testado por outro processo (4)
+Inserindo 7 na fila, pos 0
+O processo 6 testou o processo 7 correto no tempo 150.0
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 6 (cluster 2)
+Processo 0 sera testado por outro processo (2)
+Processo 1 sera testado por outro processo (3)
+Processo 2 sera testado por outro processo (0)
+Processo 3 sera testado por outro processo (1)
+Inserindo 4 na fila, pos 0
+Processo 5 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (5)
+O processo 6 testou o processo 4 correto no tempo 150.0
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 6 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 1 sera testado por outro processo (5)
+Inserindo 2 na fila, pos 0
+Processo 3 sera testado por outro processo (7)
+Processo 4 sera testado por outro processo (0)
+Processo 5 sera testado por outro processo (1)
+Processo 7 sera testado por outro processo (3)
+O processo 6 testou o processo 2 falho no tempo 150.0
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 7 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Processo 2 sera testado por outro processo (3)
+Processo 3 sera testado por outro processo (2)
+Processo 4 sera testado por outro processo (5)
+Processo 5 sera testado por outro processo (4)
+Inserindo 6 na fila, pos 0
+O processo 7 testou o processo 6 correto no tempo 150.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 7 (cluster 2)
+Processo 0 sera testado por outro processo (3)
+Processo 1 sera testado por outro processo (3)
+Processo 2 sera testado por outro processo (0)
+Processo 3 sera testado por outro processo (1)
+Processo 4 sera testado por outro processo (6)
+Inserindo 5 na fila, pos 0
+Processo 6 sera testado por outro processo (4)
+O processo 7 testou o processo 5 correto no tempo 150.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 7 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 1 sera testado por outro processo (5)
+Processo 2 sera testado por outro processo (6)
+Inserindo 3 na fila, pos 0
+Processo 4 sera testado por outro processo (0)
+Processo 5 sera testado por outro processo (1)
+Processo 6 sera testado por outro processo (3)
+O processo 7 testou o processo 3 correto no tempo 150.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+!!! EVENTO COMPLETAMENTE DETECTADO
+Latencia em tempo   = 59.000000
+Latencia em rodadas = 1
+
+> Comecando rodada 6 no tempo 180.000000
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 0 (cluster 1)
+Inserindo 1 na fila, pos 0
+Processo 2 sera testado por outro processo (3)
+Processo 4 sera testado por outro processo (5)
+Processo 5 sera testado por outro processo (4)
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 0 testou o processo 1 correto no tempo 180.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 0 (cluster 2)
+Processo 1 sera testado por outro processo (3)
+Inserindo 2 na fila, pos 0
+Processo 3 sera testado por outro processo (1)
+Processo 4 sera testado por outro processo (6)
+Processo 5 sera testado por outro processo (7)
+Processo 6 sera testado por outro processo (4)
+Processo 7 sera testado por outro processo (5)
+O processo 0 testou o processo 2 falho no tempo 180.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 0 (cluster 3)
+Processo 1 sera testado por outro processo (5)
+Processo 2 sera testado por outro processo (6)
+Processo 3 sera testado por outro processo (7)
+Inserindo 4 na fila, pos 0
+Processo 5 sera testado por outro processo (1)
+Processo 6 sera testado por outro processo (3)
+Processo 7 sera testado por outro processo (3)
+O processo 0 testou o processo 4 correto no tempo 180.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 1 (cluster 1)
+Inserindo 0 na fila, pos 0
+Processo 2 sera testado por outro processo (3)
+Processo 4 sera testado por outro processo (5)
+Processo 5 sera testado por outro processo (4)
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 1 testou o processo 0 correto no tempo 180.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 1 (cluster 2)
+Processo 0 sera testado por outro processo (3)
+Processo 2 sera testado por outro processo (0)
+Inserindo 3 na fila, pos 0
+Processo 4 sera testado por outro processo (6)
+Processo 5 sera testado por outro processo (7)
+Processo 6 sera testado por outro processo (4)
+Processo 7 sera testado por outro processo (5)
+O processo 1 testou o processo 3 correto no tempo 180.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 1 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 2 sera testado por outro processo (6)
+Processo 3 sera testado por outro processo (7)
+Processo 4 sera testado por outro processo (0)
+Inserindo 5 na fila, pos 0
+Processo 6 sera testado por outro processo (3)
+Processo 7 sera testado por outro processo (3)
+O processo 1 testou o processo 5 correto no tempo 180.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 3 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Inserindo 2 na fila, pos 0
+Processo 4 sera testado por outro processo (5)
+Processo 5 sera testado por outro processo (4)
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 3 testou o processo 2 falho no tempo 180.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 3 (cluster 2)
+Inserindo 0 na fila, pos 0
+Inserindo 1 na fila, pos 1
+Processo 2 sera testado por outro processo (0)
+Processo 4 sera testado por outro processo (6)
+Processo 5 sera testado por outro processo (7)
+Processo 6 sera testado por outro processo (4)
+Processo 7 sera testado por outro processo (5)
+O processo 3 testou o processo 0 correto no tempo 180.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+O processo 3 testou o processo 1 correto no tempo 180.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 3 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 1 sera testado por outro processo (5)
+Processo 2 sera testado por outro processo (6)
+Processo 4 sera testado por outro processo (0)
+Processo 5 sera testado por outro processo (1)
+Inserindo 6 na fila, pos 0
+Inserindo 7 na fila, pos 1
+O processo 3 testou o processo 6 correto no tempo 180.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+O processo 3 testou o processo 7 correto no tempo 180.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 4 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Processo 2 sera testado por outro processo (3)
+Inserindo 5 na fila, pos 0
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 4 testou o processo 5 correto no tempo 180.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 4 (cluster 2)
+Processo 0 sera testado por outro processo (3)
+Processo 1 sera testado por outro processo (3)
+Processo 2 sera testado por outro processo (0)
+Processo 3 sera testado por outro processo (1)
+Processo 5 sera testado por outro processo (7)
+Inserindo 6 na fila, pos 0
+Processo 7 sera testado por outro processo (5)
+O processo 4 testou o processo 6 correto no tempo 180.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 4 (cluster 3)
+Inserindo 0 na fila, pos 0
+Processo 1 sera testado por outro processo (5)
+Processo 2 sera testado por outro processo (6)
+Processo 3 sera testado por outro processo (7)
+Processo 5 sera testado por outro processo (1)
+Processo 6 sera testado por outro processo (3)
+Processo 7 sera testado por outro processo (3)
+O processo 4 testou o processo 0 correto no tempo 180.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 5:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 5 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Processo 2 sera testado por outro processo (3)
+Inserindo 4 na fila, pos 0
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 5 testou o processo 4 correto no tempo 180.0
+Vetor de estados do processo 5:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 5 (cluster 2)
+Processo 0 sera testado por outro processo (3)
+Processo 1 sera testado por outro processo (3)
+Processo 2 sera testado por outro processo (0)
+Processo 3 sera testado por outro processo (1)
+Processo 4 sera testado por outro processo (6)
+Processo 6 sera testado por outro processo (4)
+Inserindo 7 na fila, pos 0
+O processo 5 testou o processo 7 correto no tempo 180.0
+Vetor de estados do processo 5:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 5 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Inserindo 1 na fila, pos 0
+Processo 2 sera testado por outro processo (6)
+Processo 3 sera testado por outro processo (7)
+Processo 4 sera testado por outro processo (0)
+Processo 6 sera testado por outro processo (3)
+Processo 7 sera testado por outro processo (3)
+O processo 5 testou o processo 1 correto no tempo 180.0
+Vetor de estados do processo 5:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 6 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Processo 2 sera testado por outro processo (3)
+Processo 4 sera testado por outro processo (5)
+Processo 5 sera testado por outro processo (4)
+Inserindo 7 na fila, pos 0
+O processo 6 testou o processo 7 correto no tempo 180.0
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 6 (cluster 2)
+Processo 0 sera testado por outro processo (3)
+Processo 1 sera testado por outro processo (3)
+Processo 2 sera testado por outro processo (0)
+Processo 3 sera testado por outro processo (1)
+Inserindo 4 na fila, pos 0
+Processo 5 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (5)
+O processo 6 testou o processo 4 correto no tempo 180.0
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 6 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 1 sera testado por outro processo (5)
+Inserindo 2 na fila, pos 0
+Processo 3 sera testado por outro processo (7)
+Processo 4 sera testado por outro processo (0)
+Processo 5 sera testado por outro processo (1)
+Processo 7 sera testado por outro processo (3)
+O processo 6 testou o processo 2 falho no tempo 180.0
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 7 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Processo 2 sera testado por outro processo (3)
+Processo 4 sera testado por outro processo (5)
+Processo 5 sera testado por outro processo (4)
+Inserindo 6 na fila, pos 0
+O processo 7 testou o processo 6 correto no tempo 180.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 7 (cluster 2)
+Processo 0 sera testado por outro processo (3)
+Processo 1 sera testado por outro processo (3)
+Processo 2 sera testado por outro processo (0)
+Processo 3 sera testado por outro processo (1)
+Processo 4 sera testado por outro processo (6)
+Inserindo 5 na fila, pos 0
+Processo 6 sera testado por outro processo (4)
+O processo 7 testou o processo 5 correto no tempo 180.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 7 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 1 sera testado por outro processo (5)
+Processo 2 sera testado por outro processo (6)
+Inserindo 3 na fila, pos 0
+Processo 4 sera testado por outro processo (0)
+Processo 5 sera testado por outro processo (1)
+Processo 6 sera testado por outro processo (3)
+O processo 7 testou o processo 3 correto no tempo 180.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Socooorro!!! Sou o processo 5  e estou falhando no tempo 183.0
+!!! OCORREU NOVO EVENTO
+Rodada 6 tempo 183.000000
+
+> Comecando rodada 7 no tempo 210.000000
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 0 (cluster 1)
+Inserindo 1 na fila, pos 0
+Processo 2 sera testado por outro processo (3)
+Processo 4 sera testado por outro processo (5)
+Processo 5 sera testado por outro processo (4)
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 0 testou o processo 1 correto no tempo 210.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 0 (cluster 2)
+Processo 1 sera testado por outro processo (3)
+Inserindo 2 na fila, pos 0
+Processo 3 sera testado por outro processo (1)
+Processo 4 sera testado por outro processo (6)
+Processo 5 sera testado por outro processo (7)
+Processo 6 sera testado por outro processo (4)
+Processo 7 sera testado por outro processo (5)
+O processo 0 testou o processo 2 falho no tempo 210.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 0 (cluster 3)
+Processo 1 sera testado por outro processo (5)
+Processo 2 sera testado por outro processo (6)
+Processo 3 sera testado por outro processo (7)
+Inserindo 4 na fila, pos 0
+Processo 5 sera testado por outro processo (1)
+Processo 6 sera testado por outro processo (3)
+Processo 7 sera testado por outro processo (3)
+O processo 0 testou o processo 4 correto no tempo 210.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 1 (cluster 1)
+Inserindo 0 na fila, pos 0
+Processo 2 sera testado por outro processo (3)
+Processo 4 sera testado por outro processo (5)
+Processo 5 sera testado por outro processo (4)
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 1 testou o processo 0 correto no tempo 210.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 1 (cluster 2)
+Processo 0 sera testado por outro processo (3)
+Processo 2 sera testado por outro processo (0)
+Inserindo 3 na fila, pos 0
+Processo 4 sera testado por outro processo (6)
+Processo 5 sera testado por outro processo (7)
+Processo 6 sera testado por outro processo (4)
+Processo 7 sera testado por outro processo (5)
+O processo 1 testou o processo 3 correto no tempo 210.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 1 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 2 sera testado por outro processo (6)
+Processo 3 sera testado por outro processo (7)
+Processo 4 sera testado por outro processo (0)
+Inserindo 5 na fila, pos 0
+Processo 6 sera testado por outro processo (3)
+Processo 7 sera testado por outro processo (3)
+O processo 1 testou o processo 5 falho no tempo 210.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 3 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Inserindo 2 na fila, pos 0
+Processo 4 sera testado por outro processo (5)
+Processo 5 sera testado por outro processo (4)
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 3 testou o processo 2 falho no tempo 210.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 3 (cluster 2)
+Inserindo 0 na fila, pos 0
+Inserindo 1 na fila, pos 1
+Processo 2 sera testado por outro processo (0)
+Processo 4 sera testado por outro processo (6)
+Processo 5 sera testado por outro processo (7)
+Processo 6 sera testado por outro processo (4)
+Processo 7 sera testado por outro processo (5)
+O processo 3 testou o processo 0 correto no tempo 210.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+O processo 3 testou o processo 1 correto no tempo 210.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 3 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 1 sera testado por outro processo (4)
+Processo 2 sera testado por outro processo (6)
+Processo 4 sera testado por outro processo (0)
+Processo 5 sera testado por outro processo (1)
+Inserindo 6 na fila, pos 0
+Inserindo 7 na fila, pos 1
+O processo 3 testou o processo 6 correto no tempo 210.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+O processo 3 testou o processo 7 correto no tempo 210.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 4 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Processo 2 sera testado por outro processo (3)
+Inserindo 5 na fila, pos 0
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 4 testou o processo 5 falho no tempo 210.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 4 (cluster 2)
+Processo 0 sera testado por outro processo (3)
+Processo 1 sera testado por outro processo (3)
+Processo 2 sera testado por outro processo (0)
+Processo 3 sera testado por outro processo (1)
+Processo 5 sera testado por outro processo (7)
+Inserindo 6 na fila, pos 0
+Inserindo 7 na fila, pos 1
+O processo 4 testou o processo 6 correto no tempo 210.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+O processo 4 testou o processo 7 correto no tempo 210.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 4 (cluster 3)
+Inserindo 0 na fila, pos 0
+Inserindo 1 na fila, pos 1
+Processo 2 sera testado por outro processo (6)
+Processo 3 sera testado por outro processo (7)
+Processo 5 sera testado por outro processo (1)
+Processo 6 sera testado por outro processo (3)
+Processo 7 sera testado por outro processo (3)
+O processo 4 testou o processo 0 correto no tempo 210.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+O processo 4 testou o processo 1 correto no tempo 210.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 6 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Processo 2 sera testado por outro processo (3)
+Processo 4 sera testado por outro processo (5)
+Processo 5 sera testado por outro processo (4)
+Inserindo 7 na fila, pos 0
+O processo 6 testou o processo 7 correto no tempo 210.0
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 6 (cluster 2)
+Processo 0 sera testado por outro processo (3)
+Processo 1 sera testado por outro processo (3)
+Processo 2 sera testado por outro processo (0)
+Processo 3 sera testado por outro processo (1)
+Inserindo 4 na fila, pos 0
+Processo 5 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (5)
+O processo 6 testou o processo 4 correto no tempo 210.0
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 6 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 1 sera testado por outro processo (4)
+Inserindo 2 na fila, pos 0
+Processo 3 sera testado por outro processo (7)
+Processo 4 sera testado por outro processo (0)
+Processo 5 sera testado por outro processo (1)
+Processo 7 sera testado por outro processo (3)
+O processo 6 testou o processo 2 falho no tempo 210.0
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 7 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Processo 2 sera testado por outro processo (3)
+Processo 4 sera testado por outro processo (5)
+Processo 5 sera testado por outro processo (4)
+Inserindo 6 na fila, pos 0
+O processo 7 testou o processo 6 correto no tempo 210.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 7 (cluster 2)
+Processo 0 sera testado por outro processo (3)
+Processo 1 sera testado por outro processo (3)
+Processo 2 sera testado por outro processo (0)
+Processo 3 sera testado por outro processo (1)
+Processo 4 sera testado por outro processo (6)
+Inserindo 5 na fila, pos 0
+Processo 6 sera testado por outro processo (4)
+O processo 7 testou o processo 5 falho no tempo 210.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 7 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 1 sera testado por outro processo (4)
+Processo 2 sera testado por outro processo (6)
+Inserindo 3 na fila, pos 0
+Processo 4 sera testado por outro processo (0)
+Processo 5 sera testado por outro processo (1)
+Processo 6 sera testado por outro processo (3)
+O processo 7 testou o processo 3 correto no tempo 210.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+
+> Comecando rodada 8 no tempo 240.000000
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 0 (cluster 1)
+Inserindo 1 na fila, pos 0
+Processo 2 sera testado por outro processo (3)
+Processo 4 sera testado por outro processo (5)
+Processo 5 sera testado por outro processo (4)
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 0 testou o processo 1 correto no tempo 240.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 0 (cluster 2)
+Processo 1 sera testado por outro processo (3)
+Inserindo 2 na fila, pos 0
+Processo 3 sera testado por outro processo (1)
+Processo 4 sera testado por outro processo (6)
+Processo 5 sera testado por outro processo (7)
+Processo 6 sera testado por outro processo (4)
+Processo 7 sera testado por outro processo (4)
+O processo 0 testou o processo 2 falho no tempo 240.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 0 (cluster 3)
+Processo 1 sera testado por outro processo (4)
+Processo 2 sera testado por outro processo (6)
+Processo 3 sera testado por outro processo (7)
+Inserindo 4 na fila, pos 0
+Processo 5 sera testado por outro processo (1)
+Processo 6 sera testado por outro processo (3)
+Processo 7 sera testado por outro processo (3)
+O processo 0 testou o processo 4 correto no tempo 240.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 1 (cluster 1)
+Inserindo 0 na fila, pos 0
+Processo 2 sera testado por outro processo (3)
+Processo 5 sera testado por outro processo (4)
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 1 testou o processo 0 correto no tempo 240.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 1 (cluster 2)
+Processo 0 sera testado por outro processo (3)
+Processo 2 sera testado por outro processo (0)
+Inserindo 3 na fila, pos 0
+Processo 4 sera testado por outro processo (6)
+Processo 5 sera testado por outro processo (7)
+Processo 6 sera testado por outro processo (4)
+Processo 7 sera testado por outro processo (4)
+O processo 1 testou o processo 3 correto no tempo 240.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 1 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 2 sera testado por outro processo (6)
+Processo 3 sera testado por outro processo (7)
+Processo 4 sera testado por outro processo (0)
+Inserindo 5 na fila, pos 0
+Processo 6 sera testado por outro processo (3)
+Processo 7 sera testado por outro processo (3)
+O processo 1 testou o processo 5 falho no tempo 240.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 3 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Inserindo 2 na fila, pos 0
+Processo 5 sera testado por outro processo (4)
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 3 testou o processo 2 falho no tempo 240.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 3 (cluster 2)
+Inserindo 0 na fila, pos 0
+Inserindo 1 na fila, pos 1
+Processo 2 sera testado por outro processo (0)
+Processo 4 sera testado por outro processo (6)
+Processo 5 sera testado por outro processo (7)
+Processo 6 sera testado por outro processo (4)
+Processo 7 sera testado por outro processo (4)
+O processo 3 testou o processo 0 correto no tempo 240.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+O processo 3 testou o processo 1 correto no tempo 240.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 3 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 1 sera testado por outro processo (4)
+Processo 2 sera testado por outro processo (6)
+Processo 4 sera testado por outro processo (0)
+Processo 5 sera testado por outro processo (1)
+Inserindo 6 na fila, pos 0
+Inserindo 7 na fila, pos 1
+O processo 3 testou o processo 6 correto no tempo 240.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+O processo 3 testou o processo 7 correto no tempo 240.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 4 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Processo 2 sera testado por outro processo (3)
+Inserindo 5 na fila, pos 0
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 4 testou o processo 5 falho no tempo 240.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 4 (cluster 2)
+Processo 0 sera testado por outro processo (3)
+Processo 1 sera testado por outro processo (3)
+Processo 2 sera testado por outro processo (0)
+Processo 3 sera testado por outro processo (1)
+Processo 5 sera testado por outro processo (7)
+Inserindo 6 na fila, pos 0
+Inserindo 7 na fila, pos 1
+O processo 4 testou o processo 6 correto no tempo 240.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+O processo 4 testou o processo 7 correto no tempo 240.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 4 (cluster 3)
+Inserindo 0 na fila, pos 0
+Inserindo 1 na fila, pos 1
+Processo 2 sera testado por outro processo (6)
+Processo 3 sera testado por outro processo (7)
+Processo 5 sera testado por outro processo (1)
+Processo 6 sera testado por outro processo (3)
+Processo 7 sera testado por outro processo (3)
+O processo 4 testou o processo 0 correto no tempo 240.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+O processo 4 testou o processo 1 correto no tempo 240.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 6 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Processo 2 sera testado por outro processo (3)
+Processo 5 sera testado por outro processo (4)
+Inserindo 7 na fila, pos 0
+O processo 6 testou o processo 7 correto no tempo 240.0
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 6 (cluster 2)
+Processo 0 sera testado por outro processo (3)
+Processo 1 sera testado por outro processo (3)
+Processo 2 sera testado por outro processo (0)
+Processo 3 sera testado por outro processo (1)
+Inserindo 4 na fila, pos 0
+Processo 5 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (4)
+O processo 6 testou o processo 4 correto no tempo 240.0
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 6 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 1 sera testado por outro processo (4)
+Inserindo 2 na fila, pos 0
+Processo 3 sera testado por outro processo (7)
+Processo 4 sera testado por outro processo (0)
+Processo 5 sera testado por outro processo (1)
+Processo 7 sera testado por outro processo (3)
+O processo 6 testou o processo 2 falho no tempo 240.0
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 7 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Processo 2 sera testado por outro processo (3)
+Processo 5 sera testado por outro processo (4)
+Inserindo 6 na fila, pos 0
+O processo 7 testou o processo 6 correto no tempo 240.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 7 (cluster 2)
+Processo 0 sera testado por outro processo (3)
+Processo 1 sera testado por outro processo (3)
+Processo 2 sera testado por outro processo (0)
+Processo 3 sera testado por outro processo (1)
+Processo 4 sera testado por outro processo (6)
+Inserindo 5 na fila, pos 0
+Processo 6 sera testado por outro processo (4)
+O processo 7 testou o processo 5 falho no tempo 240.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 7 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 1 sera testado por outro processo (4)
+Processo 2 sera testado por outro processo (6)
+Inserindo 3 na fila, pos 0
+Processo 4 sera testado por outro processo (0)
+Processo 5 sera testado por outro processo (1)
+Processo 6 sera testado por outro processo (3)
+O processo 7 testou o processo 3 correto no tempo 240.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+!!! EVENTO COMPLETAMENTE DETECTADO
+Latencia em tempo   = 87.000000
+Latencia em rodadas = 2
+
+> Comecando rodada 9 no tempo 270.000000
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 0 (cluster 1)
+Inserindo 1 na fila, pos 0
+Processo 2 sera testado por outro processo (3)
+Processo 5 sera testado por outro processo (4)
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 0 testou o processo 1 correto no tempo 270.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 0 (cluster 2)
+Processo 1 sera testado por outro processo (3)
+Inserindo 2 na fila, pos 0
+Processo 3 sera testado por outro processo (1)
+Processo 4 sera testado por outro processo (6)
+Processo 5 sera testado por outro processo (7)
+Processo 6 sera testado por outro processo (4)
+Processo 7 sera testado por outro processo (4)
+O processo 0 testou o processo 2 falho no tempo 270.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 0 (cluster 3)
+Processo 1 sera testado por outro processo (4)
+Processo 2 sera testado por outro processo (6)
+Processo 3 sera testado por outro processo (7)
+Inserindo 4 na fila, pos 0
+Processo 5 sera testado por outro processo (1)
+Processo 6 sera testado por outro processo (3)
+Processo 7 sera testado por outro processo (3)
+O processo 0 testou o processo 4 correto no tempo 270.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 1 (cluster 1)
+Inserindo 0 na fila, pos 0
+Processo 2 sera testado por outro processo (3)
+Processo 5 sera testado por outro processo (4)
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 1 testou o processo 0 correto no tempo 270.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 1 (cluster 2)
+Processo 0 sera testado por outro processo (3)
+Processo 2 sera testado por outro processo (0)
+Inserindo 3 na fila, pos 0
+Processo 4 sera testado por outro processo (6)
+Processo 5 sera testado por outro processo (7)
+Processo 6 sera testado por outro processo (4)
+Processo 7 sera testado por outro processo (4)
+O processo 1 testou o processo 3 correto no tempo 270.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 1 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 2 sera testado por outro processo (6)
+Processo 3 sera testado por outro processo (7)
+Processo 4 sera testado por outro processo (0)
+Inserindo 5 na fila, pos 0
+Processo 6 sera testado por outro processo (3)
+Processo 7 sera testado por outro processo (3)
+O processo 1 testou o processo 5 falho no tempo 270.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 3 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Inserindo 2 na fila, pos 0
+Processo 5 sera testado por outro processo (4)
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 3 testou o processo 2 falho no tempo 270.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 3 (cluster 2)
+Inserindo 0 na fila, pos 0
+Inserindo 1 na fila, pos 1
+Processo 2 sera testado por outro processo (0)
+Processo 4 sera testado por outro processo (6)
+Processo 5 sera testado por outro processo (7)
+Processo 6 sera testado por outro processo (4)
+Processo 7 sera testado por outro processo (4)
+O processo 3 testou o processo 0 correto no tempo 270.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+O processo 3 testou o processo 1 correto no tempo 270.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 3 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 1 sera testado por outro processo (4)
+Processo 2 sera testado por outro processo (6)
+Processo 4 sera testado por outro processo (0)
+Processo 5 sera testado por outro processo (1)
+Inserindo 6 na fila, pos 0
+Inserindo 7 na fila, pos 1
+O processo 3 testou o processo 6 correto no tempo 270.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+O processo 3 testou o processo 7 correto no tempo 270.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 4 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Processo 2 sera testado por outro processo (3)
+Inserindo 5 na fila, pos 0
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 4 testou o processo 5 falho no tempo 270.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 4 (cluster 2)
+Processo 0 sera testado por outro processo (3)
+Processo 1 sera testado por outro processo (3)
+Processo 2 sera testado por outro processo (0)
+Processo 3 sera testado por outro processo (1)
+Processo 5 sera testado por outro processo (7)
+Inserindo 6 na fila, pos 0
+Inserindo 7 na fila, pos 1
+O processo 4 testou o processo 6 correto no tempo 270.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+O processo 4 testou o processo 7 correto no tempo 270.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 4 (cluster 3)
+Inserindo 0 na fila, pos 0
+Inserindo 1 na fila, pos 1
+Processo 2 sera testado por outro processo (6)
+Processo 3 sera testado por outro processo (7)
+Processo 5 sera testado por outro processo (1)
+Processo 6 sera testado por outro processo (3)
+Processo 7 sera testado por outro processo (3)
+O processo 4 testou o processo 0 correto no tempo 270.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+O processo 4 testou o processo 1 correto no tempo 270.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 6 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Processo 2 sera testado por outro processo (3)
+Processo 5 sera testado por outro processo (4)
+Inserindo 7 na fila, pos 0
+O processo 6 testou o processo 7 correto no tempo 270.0
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 6 (cluster 2)
+Processo 0 sera testado por outro processo (3)
+Processo 1 sera testado por outro processo (3)
+Processo 2 sera testado por outro processo (0)
+Processo 3 sera testado por outro processo (1)
+Inserindo 4 na fila, pos 0
+Processo 5 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (4)
+O processo 6 testou o processo 4 correto no tempo 270.0
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 6 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 1 sera testado por outro processo (4)
+Inserindo 2 na fila, pos 0
+Processo 3 sera testado por outro processo (7)
+Processo 4 sera testado por outro processo (0)
+Processo 5 sera testado por outro processo (1)
+Processo 7 sera testado por outro processo (3)
+O processo 6 testou o processo 2 falho no tempo 270.0
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 7 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Processo 2 sera testado por outro processo (3)
+Processo 5 sera testado por outro processo (4)
+Inserindo 6 na fila, pos 0
+O processo 7 testou o processo 6 correto no tempo 270.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 7 (cluster 2)
+Processo 0 sera testado por outro processo (3)
+Processo 1 sera testado por outro processo (3)
+Processo 2 sera testado por outro processo (0)
+Processo 3 sera testado por outro processo (1)
+Processo 4 sera testado por outro processo (6)
+Inserindo 5 na fila, pos 0
+Processo 6 sera testado por outro processo (4)
+O processo 7 testou o processo 5 falho no tempo 270.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 7 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 1 sera testado por outro processo (4)
+Processo 2 sera testado por outro processo (6)
+Inserindo 3 na fila, pos 0
+Processo 4 sera testado por outro processo (0)
+Processo 5 sera testado por outro processo (1)
+Processo 6 sera testado por outro processo (3)
+O processo 7 testou o processo 3 correto no tempo 270.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Viva!!! Sou o processo 2 e acabo de recuperar no tempo 290.0
+!!! OCORREU NOVO EVENTO
+Rodada 9 tempo 290.000000
+Vetor de estados do processo 2:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 2 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Inserindo 3 na fila, pos 0
+Processo 4 sera testado por outro processo (5)
+Processo 5 sera testado por outro processo (4)
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 2 testou o processo 3 correto no tempo 291.0
+Vetor de estados do processo 2:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 2 (cluster 2)
+Inserindo 0 na fila, pos 0
+Processo 1 sera testado por outro processo (3)
+Processo 3 sera testado por outro processo (1)
+Processo 4 sera testado por outro processo (6)
+Processo 5 sera testado por outro processo (7)
+Processo 6 sera testado por outro processo (4)
+Processo 7 sera testado por outro processo (4)
+O processo 2 testou o processo 0 correto no tempo 291.0
+Vetor de estados do processo 2:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 2 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 1 sera testado por outro processo (4)
+Processo 3 sera testado por outro processo (7)
+Processo 4 sera testado por outro processo (0)
+Processo 5 sera testado por outro processo (1)
+Inserindo 6 na fila, pos 0
+Processo 7 sera testado por outro processo (3)
+O processo 2 testou o processo 6 correto no tempo 291.0
+Vetor de estados do processo 2:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+
+> Comecando rodada 10 no tempo 300.000000
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 0 (cluster 1)
+Inserindo 1 na fila, pos 0
+Processo 2 sera testado por outro processo (3)
+Processo 5 sera testado por outro processo (4)
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 0 testou o processo 1 correto no tempo 300.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 0 (cluster 2)
+Processo 1 sera testado por outro processo (3)
+Inserindo 2 na fila, pos 0
+Processo 3 sera testado por outro processo (1)
+Processo 4 sera testado por outro processo (6)
+Processo 5 sera testado por outro processo (7)
+Processo 6 sera testado por outro processo (4)
+Processo 7 sera testado por outro processo (4)
+O processo 0 testou o processo 2 correto no tempo 300.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 0 (cluster 3)
+Processo 1 sera testado por outro processo (4)
+Processo 2 sera testado por outro processo (6)
+Processo 3 sera testado por outro processo (7)
+Inserindo 4 na fila, pos 0
+Processo 5 sera testado por outro processo (1)
+Processo 6 sera testado por outro processo (2)
+Processo 7 sera testado por outro processo (3)
+O processo 0 testou o processo 4 correto no tempo 300.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 1 (cluster 1)
+Inserindo 0 na fila, pos 0
+Processo 2 sera testado por outro processo (3)
+Processo 5 sera testado por outro processo (4)
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 1 testou o processo 0 correto no tempo 300.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 1 (cluster 2)
+Processo 0 sera testado por outro processo (2)
+Processo 2 sera testado por outro processo (0)
+Inserindo 3 na fila, pos 0
+Processo 4 sera testado por outro processo (6)
+Processo 5 sera testado por outro processo (7)
+Processo 6 sera testado por outro processo (4)
+Processo 7 sera testado por outro processo (4)
+O processo 1 testou o processo 3 correto no tempo 300.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 1 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 2 sera testado por outro processo (6)
+Processo 3 sera testado por outro processo (7)
+Processo 4 sera testado por outro processo (0)
+Inserindo 5 na fila, pos 0
+Processo 6 sera testado por outro processo (2)
+Processo 7 sera testado por outro processo (3)
+O processo 1 testou o processo 5 falho no tempo 300.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 3 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Inserindo 2 na fila, pos 0
+Processo 5 sera testado por outro processo (4)
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 3 testou o processo 2 correto no tempo 300.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 3 (cluster 2)
+Processo 0 sera testado por outro processo (2)
+Inserindo 1 na fila, pos 0
+Processo 2 sera testado por outro processo (0)
+Processo 4 sera testado por outro processo (6)
+Processo 5 sera testado por outro processo (7)
+Processo 6 sera testado por outro processo (4)
+Processo 7 sera testado por outro processo (4)
+O processo 3 testou o processo 1 correto no tempo 300.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 3 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 1 sera testado por outro processo (4)
+Processo 2 sera testado por outro processo (6)
+Processo 4 sera testado por outro processo (0)
+Processo 5 sera testado por outro processo (1)
+Processo 6 sera testado por outro processo (2)
+Inserindo 7 na fila, pos 0
+O processo 3 testou o processo 7 correto no tempo 300.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 4 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Processo 2 sera testado por outro processo (3)
+Inserindo 5 na fila, pos 0
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 4 testou o processo 5 falho no tempo 300.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 4 (cluster 2)
+Processo 0 sera testado por outro processo (3)
+Processo 1 sera testado por outro processo (3)
+Processo 2 sera testado por outro processo (0)
+Processo 3 sera testado por outro processo (1)
+Processo 5 sera testado por outro processo (7)
+Inserindo 6 na fila, pos 0
+Inserindo 7 na fila, pos 1
+O processo 4 testou o processo 6 correto no tempo 300.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+O processo 4 testou o processo 7 correto no tempo 300.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 4 (cluster 3)
+Inserindo 0 na fila, pos 0
+Inserindo 1 na fila, pos 1
+Processo 2 sera testado por outro processo (6)
+Processo 3 sera testado por outro processo (7)
+Processo 5 sera testado por outro processo (1)
+Processo 6 sera testado por outro processo (3)
+Processo 7 sera testado por outro processo (3)
+O processo 4 testou o processo 0 correto no tempo 300.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+O processo 4 testou o processo 1 correto no tempo 300.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 6 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Processo 2 sera testado por outro processo (3)
+Processo 5 sera testado por outro processo (4)
+Inserindo 7 na fila, pos 0
+O processo 6 testou o processo 7 correto no tempo 300.0
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 6 (cluster 2)
+Processo 0 sera testado por outro processo (3)
+Processo 1 sera testado por outro processo (3)
+Processo 2 sera testado por outro processo (0)
+Processo 3 sera testado por outro processo (1)
+Inserindo 4 na fila, pos 0
+Processo 5 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (4)
+O processo 6 testou o processo 4 correto no tempo 300.0
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 6 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 1 sera testado por outro processo (4)
+Inserindo 2 na fila, pos 0
+Processo 3 sera testado por outro processo (7)
+Processo 4 sera testado por outro processo (0)
+Processo 5 sera testado por outro processo (1)
+Processo 7 sera testado por outro processo (3)
+O processo 6 testou o processo 2 correto no tempo 300.0
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 1 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 7 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Processo 2 sera testado por outro processo (3)
+Processo 5 sera testado por outro processo (4)
+Inserindo 6 na fila, pos 0
+O processo 7 testou o processo 6 correto no tempo 300.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 7 (cluster 2)
+Processo 0 sera testado por outro processo (2)
+Processo 1 sera testado por outro processo (3)
+Processo 2 sera testado por outro processo (0)
+Processo 3 sera testado por outro processo (1)
+Processo 4 sera testado por outro processo (6)
+Inserindo 5 na fila, pos 0
+Processo 6 sera testado por outro processo (4)
+O processo 7 testou o processo 5 falho no tempo 300.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 7 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 1 sera testado por outro processo (4)
+Processo 2 sera testado por outro processo (6)
+Inserindo 3 na fila, pos 0
+Processo 4 sera testado por outro processo (0)
+Processo 5 sera testado por outro processo (1)
+Processo 6 sera testado por outro processo (2)
+O processo 7 testou o processo 3 correto no tempo 300.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 2:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 2 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Inserindo 3 na fila, pos 0
+Processo 5 sera testado por outro processo (4)
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 2 testou o processo 3 correto no tempo 321.0
+Vetor de estados do processo 2:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 2 (cluster 2)
+Inserindo 0 na fila, pos 0
+Processo 1 sera testado por outro processo (3)
+Processo 3 sera testado por outro processo (1)
+Processo 4 sera testado por outro processo (6)
+Processo 5 sera testado por outro processo (7)
+Processo 6 sera testado por outro processo (4)
+Processo 7 sera testado por outro processo (4)
+O processo 2 testou o processo 0 correto no tempo 321.0
+Vetor de estados do processo 2:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 2 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 1 sera testado por outro processo (4)
+Processo 3 sera testado por outro processo (7)
+Processo 4 sera testado por outro processo (0)
+Processo 5 sera testado por outro processo (1)
+Inserindo 6 na fila, pos 0
+Processo 7 sera testado por outro processo (3)
+O processo 2 testou o processo 6 correto no tempo 321.0
+Vetor de estados do processo 2:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+!!! EVENTO COMPLETAMENTE DETECTADO
+Latencia em tempo   = 40.000000
+Latencia em rodadas = 1
+
+> Comecando rodada 11 no tempo 330.000000
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 0 (cluster 1)
+Inserindo 1 na fila, pos 0
+Processo 2 sera testado por outro processo (3)
+Processo 3 sera testado por outro processo (2)
+Processo 5 sera testado por outro processo (4)
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 0 testou o processo 1 correto no tempo 330.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 0 (cluster 2)
+Processo 1 sera testado por outro processo (3)
+Inserindo 2 na fila, pos 0
+Processo 3 sera testado por outro processo (1)
+Processo 4 sera testado por outro processo (6)
+Processo 5 sera testado por outro processo (7)
+Processo 6 sera testado por outro processo (4)
+Processo 7 sera testado por outro processo (4)
+O processo 0 testou o processo 2 correto no tempo 330.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 0 (cluster 3)
+Processo 1 sera testado por outro processo (4)
+Processo 2 sera testado por outro processo (6)
+Processo 3 sera testado por outro processo (7)
+Inserindo 4 na fila, pos 0
+Processo 5 sera testado por outro processo (1)
+Processo 6 sera testado por outro processo (2)
+Processo 7 sera testado por outro processo (3)
+O processo 0 testou o processo 4 correto no tempo 330.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 1 (cluster 1)
+Inserindo 0 na fila, pos 0
+Processo 2 sera testado por outro processo (3)
+Processo 3 sera testado por outro processo (2)
+Processo 5 sera testado por outro processo (4)
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 1 testou o processo 0 correto no tempo 330.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 1 (cluster 2)
+Processo 0 sera testado por outro processo (2)
+Processo 2 sera testado por outro processo (0)
+Inserindo 3 na fila, pos 0
+Processo 4 sera testado por outro processo (6)
+Processo 5 sera testado por outro processo (7)
+Processo 6 sera testado por outro processo (4)
+Processo 7 sera testado por outro processo (4)
+O processo 1 testou o processo 3 correto no tempo 330.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 1 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 2 sera testado por outro processo (6)
+Processo 3 sera testado por outro processo (7)
+Processo 4 sera testado por outro processo (0)
+Inserindo 5 na fila, pos 0
+Processo 6 sera testado por outro processo (2)
+Processo 7 sera testado por outro processo (3)
+O processo 1 testou o processo 5 falho no tempo 330.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 3 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Inserindo 2 na fila, pos 0
+Processo 5 sera testado por outro processo (4)
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 3 testou o processo 2 correto no tempo 330.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 3 (cluster 2)
+Processo 0 sera testado por outro processo (2)
+Inserindo 1 na fila, pos 0
+Processo 2 sera testado por outro processo (0)
+Processo 4 sera testado por outro processo (6)
+Processo 5 sera testado por outro processo (7)
+Processo 6 sera testado por outro processo (4)
+Processo 7 sera testado por outro processo (4)
+O processo 3 testou o processo 1 correto no tempo 330.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 3 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 1 sera testado por outro processo (4)
+Processo 2 sera testado por outro processo (6)
+Processo 4 sera testado por outro processo (0)
+Processo 5 sera testado por outro processo (1)
+Processo 6 sera testado por outro processo (2)
+Inserindo 7 na fila, pos 0
+O processo 3 testou o processo 7 correto no tempo 330.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 4 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Processo 2 sera testado por outro processo (3)
+Processo 3 sera testado por outro processo (2)
+Inserindo 5 na fila, pos 0
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 4 testou o processo 5 falho no tempo 330.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 4 (cluster 2)
+Processo 0 sera testado por outro processo (2)
+Processo 1 sera testado por outro processo (3)
+Processo 2 sera testado por outro processo (0)
+Processo 3 sera testado por outro processo (1)
+Processo 5 sera testado por outro processo (7)
+Inserindo 6 na fila, pos 0
+Inserindo 7 na fila, pos 1
+O processo 4 testou o processo 6 correto no tempo 330.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+O processo 4 testou o processo 7 correto no tempo 330.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 4 (cluster 3)
+Inserindo 0 na fila, pos 0
+Inserindo 1 na fila, pos 1
+Processo 2 sera testado por outro processo (6)
+Processo 3 sera testado por outro processo (7)
+Processo 5 sera testado por outro processo (1)
+Processo 6 sera testado por outro processo (2)
+Processo 7 sera testado por outro processo (3)
+O processo 4 testou o processo 0 correto no tempo 330.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+O processo 4 testou o processo 1 correto no tempo 330.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 6 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Processo 2 sera testado por outro processo (3)
+Processo 3 sera testado por outro processo (2)
+Processo 5 sera testado por outro processo (4)
+Inserindo 7 na fila, pos 0
+O processo 6 testou o processo 7 correto no tempo 330.0
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 6 (cluster 2)
+Processo 0 sera testado por outro processo (2)
+Processo 1 sera testado por outro processo (3)
+Processo 2 sera testado por outro processo (0)
+Processo 3 sera testado por outro processo (1)
+Inserindo 4 na fila, pos 0
+Processo 5 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (4)
+O processo 6 testou o processo 4 correto no tempo 330.0
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 6 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 1 sera testado por outro processo (4)
+Inserindo 2 na fila, pos 0
+Processo 3 sera testado por outro processo (7)
+Processo 4 sera testado por outro processo (0)
+Processo 5 sera testado por outro processo (1)
+Processo 7 sera testado por outro processo (3)
+O processo 6 testou o processo 2 correto no tempo 330.0
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 7 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Processo 2 sera testado por outro processo (3)
+Processo 3 sera testado por outro processo (2)
+Processo 5 sera testado por outro processo (4)
+Inserindo 6 na fila, pos 0
+O processo 7 testou o processo 6 correto no tempo 330.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 7 (cluster 2)
+Processo 0 sera testado por outro processo (2)
+Processo 1 sera testado por outro processo (3)
+Processo 2 sera testado por outro processo (0)
+Processo 3 sera testado por outro processo (1)
+Processo 4 sera testado por outro processo (6)
+Inserindo 5 na fila, pos 0
+Processo 6 sera testado por outro processo (4)
+O processo 7 testou o processo 5 falho no tempo 330.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 7 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 1 sera testado por outro processo (4)
+Processo 2 sera testado por outro processo (6)
+Inserindo 3 na fila, pos 0
+Processo 4 sera testado por outro processo (0)
+Processo 5 sera testado por outro processo (1)
+Processo 6 sera testado por outro processo (2)
+O processo 7 testou o processo 3 correto no tempo 330.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 2:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 2 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Inserindo 3 na fila, pos 0
+Processo 5 sera testado por outro processo (4)
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 2 testou o processo 3 correto no tempo 351.0
+Vetor de estados do processo 2:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 2 (cluster 2)
+Inserindo 0 na fila, pos 0
+Processo 1 sera testado por outro processo (3)
+Processo 3 sera testado por outro processo (1)
+Processo 4 sera testado por outro processo (6)
+Processo 5 sera testado por outro processo (7)
+Processo 6 sera testado por outro processo (4)
+Processo 7 sera testado por outro processo (4)
+O processo 2 testou o processo 0 correto no tempo 351.0
+Vetor de estados do processo 2:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 2 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 1 sera testado por outro processo (4)
+Processo 3 sera testado por outro processo (7)
+Processo 4 sera testado por outro processo (0)
+Processo 5 sera testado por outro processo (1)
+Inserindo 6 na fila, pos 0
+Processo 7 sera testado por outro processo (3)
+O processo 2 testou o processo 6 correto no tempo 351.0
+Vetor de estados do processo 2:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+
+> Comecando rodada 12 no tempo 360.000000
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 0 (cluster 1)
+Inserindo 1 na fila, pos 0
+Processo 2 sera testado por outro processo (3)
+Processo 3 sera testado por outro processo (2)
+Processo 5 sera testado por outro processo (4)
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 0 testou o processo 1 correto no tempo 360.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 0 (cluster 2)
+Processo 1 sera testado por outro processo (3)
+Inserindo 2 na fila, pos 0
+Processo 3 sera testado por outro processo (1)
+Processo 4 sera testado por outro processo (6)
+Processo 5 sera testado por outro processo (7)
+Processo 6 sera testado por outro processo (4)
+Processo 7 sera testado por outro processo (4)
+O processo 0 testou o processo 2 correto no tempo 360.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 0 (cluster 3)
+Processo 1 sera testado por outro processo (4)
+Processo 2 sera testado por outro processo (6)
+Processo 3 sera testado por outro processo (7)
+Inserindo 4 na fila, pos 0
+Processo 5 sera testado por outro processo (1)
+Processo 6 sera testado por outro processo (2)
+Processo 7 sera testado por outro processo (3)
+O processo 0 testou o processo 4 correto no tempo 360.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 1 (cluster 1)
+Inserindo 0 na fila, pos 0
+Processo 2 sera testado por outro processo (3)
+Processo 3 sera testado por outro processo (2)
+Processo 5 sera testado por outro processo (4)
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 1 testou o processo 0 correto no tempo 360.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 1 (cluster 2)
+Processo 0 sera testado por outro processo (2)
+Processo 2 sera testado por outro processo (0)
+Inserindo 3 na fila, pos 0
+Processo 4 sera testado por outro processo (6)
+Processo 5 sera testado por outro processo (7)
+Processo 6 sera testado por outro processo (4)
+Processo 7 sera testado por outro processo (4)
+O processo 1 testou o processo 3 correto no tempo 360.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 1 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 2 sera testado por outro processo (6)
+Processo 3 sera testado por outro processo (7)
+Processo 4 sera testado por outro processo (0)
+Inserindo 5 na fila, pos 0
+Processo 6 sera testado por outro processo (2)
+Processo 7 sera testado por outro processo (3)
+O processo 1 testou o processo 5 falho no tempo 360.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 3 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Inserindo 2 na fila, pos 0
+Processo 5 sera testado por outro processo (4)
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 3 testou o processo 2 correto no tempo 360.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 3 (cluster 2)
+Processo 0 sera testado por outro processo (2)
+Inserindo 1 na fila, pos 0
+Processo 2 sera testado por outro processo (0)
+Processo 4 sera testado por outro processo (6)
+Processo 5 sera testado por outro processo (7)
+Processo 6 sera testado por outro processo (4)
+Processo 7 sera testado por outro processo (4)
+O processo 3 testou o processo 1 correto no tempo 360.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 3 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 1 sera testado por outro processo (4)
+Processo 2 sera testado por outro processo (6)
+Processo 4 sera testado por outro processo (0)
+Processo 5 sera testado por outro processo (1)
+Processo 6 sera testado por outro processo (2)
+Inserindo 7 na fila, pos 0
+O processo 3 testou o processo 7 correto no tempo 360.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 4 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Processo 2 sera testado por outro processo (3)
+Processo 3 sera testado por outro processo (2)
+Inserindo 5 na fila, pos 0
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 4 testou o processo 5 falho no tempo 360.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 4 (cluster 2)
+Processo 0 sera testado por outro processo (2)
+Processo 1 sera testado por outro processo (3)
+Processo 2 sera testado por outro processo (0)
+Processo 3 sera testado por outro processo (1)
+Processo 5 sera testado por outro processo (7)
+Inserindo 6 na fila, pos 0
+Inserindo 7 na fila, pos 1
+O processo 4 testou o processo 6 correto no tempo 360.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+O processo 4 testou o processo 7 correto no tempo 360.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 4 (cluster 3)
+Inserindo 0 na fila, pos 0
+Inserindo 1 na fila, pos 1
+Processo 2 sera testado por outro processo (6)
+Processo 3 sera testado por outro processo (7)
+Processo 5 sera testado por outro processo (1)
+Processo 6 sera testado por outro processo (2)
+Processo 7 sera testado por outro processo (3)
+O processo 4 testou o processo 0 correto no tempo 360.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+O processo 4 testou o processo 1 correto no tempo 360.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 6 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Processo 2 sera testado por outro processo (3)
+Processo 3 sera testado por outro processo (2)
+Processo 5 sera testado por outro processo (4)
+Inserindo 7 na fila, pos 0
+O processo 6 testou o processo 7 correto no tempo 360.0
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 6 (cluster 2)
+Processo 0 sera testado por outro processo (2)
+Processo 1 sera testado por outro processo (3)
+Processo 2 sera testado por outro processo (0)
+Processo 3 sera testado por outro processo (1)
+Inserindo 4 na fila, pos 0
+Processo 5 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (4)
+O processo 6 testou o processo 4 correto no tempo 360.0
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 6 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 1 sera testado por outro processo (4)
+Inserindo 2 na fila, pos 0
+Processo 3 sera testado por outro processo (7)
+Processo 4 sera testado por outro processo (0)
+Processo 5 sera testado por outro processo (1)
+Processo 7 sera testado por outro processo (3)
+O processo 6 testou o processo 2 correto no tempo 360.0
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 7 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Processo 2 sera testado por outro processo (3)
+Processo 3 sera testado por outro processo (2)
+Processo 5 sera testado por outro processo (4)
+Inserindo 6 na fila, pos 0
+O processo 7 testou o processo 6 correto no tempo 360.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 7 (cluster 2)
+Processo 0 sera testado por outro processo (2)
+Processo 1 sera testado por outro processo (3)
+Processo 2 sera testado por outro processo (0)
+Processo 3 sera testado por outro processo (1)
+Processo 4 sera testado por outro processo (6)
+Inserindo 5 na fila, pos 0
+Processo 6 sera testado por outro processo (4)
+O processo 7 testou o processo 5 falho no tempo 360.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 7 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 1 sera testado por outro processo (4)
+Processo 2 sera testado por outro processo (6)
+Inserindo 3 na fila, pos 0
+Processo 4 sera testado por outro processo (0)
+Processo 5 sera testado por outro processo (1)
+Processo 6 sera testado por outro processo (2)
+O processo 7 testou o processo 3 correto no tempo 360.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 2:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 2 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Inserindo 3 na fila, pos 0
+Processo 5 sera testado por outro processo (4)
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 2 testou o processo 3 correto no tempo 381.0
+Vetor de estados do processo 2:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 2 (cluster 2)
+Inserindo 0 na fila, pos 0
+Processo 1 sera testado por outro processo (3)
+Processo 3 sera testado por outro processo (1)
+Processo 4 sera testado por outro processo (6)
+Processo 5 sera testado por outro processo (7)
+Processo 6 sera testado por outro processo (4)
+Processo 7 sera testado por outro processo (4)
+O processo 2 testou o processo 0 correto no tempo 381.0
+Vetor de estados do processo 2:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 2 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 1 sera testado por outro processo (4)
+Processo 3 sera testado por outro processo (7)
+Processo 4 sera testado por outro processo (0)
+Processo 5 sera testado por outro processo (1)
+Inserindo 6 na fila, pos 0
+Processo 7 sera testado por outro processo (3)
+O processo 2 testou o processo 6 correto no tempo 381.0
+Vetor de estados do processo 2:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+
+> Comecando rodada 13 no tempo 390.000000
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 0 (cluster 1)
+Inserindo 1 na fila, pos 0
+Processo 2 sera testado por outro processo (3)
+Processo 3 sera testado por outro processo (2)
+Processo 5 sera testado por outro processo (4)
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 0 testou o processo 1 correto no tempo 390.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 0 (cluster 2)
+Processo 1 sera testado por outro processo (3)
+Inserindo 2 na fila, pos 0
+Processo 3 sera testado por outro processo (1)
+Processo 4 sera testado por outro processo (6)
+Processo 5 sera testado por outro processo (7)
+Processo 6 sera testado por outro processo (4)
+Processo 7 sera testado por outro processo (4)
+O processo 0 testou o processo 2 correto no tempo 390.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 0 (cluster 3)
+Processo 1 sera testado por outro processo (4)
+Processo 2 sera testado por outro processo (6)
+Processo 3 sera testado por outro processo (7)
+Inserindo 4 na fila, pos 0
+Processo 5 sera testado por outro processo (1)
+Processo 6 sera testado por outro processo (2)
+Processo 7 sera testado por outro processo (3)
+O processo 0 testou o processo 4 correto no tempo 390.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 1 (cluster 1)
+Inserindo 0 na fila, pos 0
+Processo 2 sera testado por outro processo (3)
+Processo 3 sera testado por outro processo (2)
+Processo 5 sera testado por outro processo (4)
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 1 testou o processo 0 correto no tempo 390.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 1 (cluster 2)
+Processo 0 sera testado por outro processo (2)
+Processo 2 sera testado por outro processo (0)
+Inserindo 3 na fila, pos 0
+Processo 4 sera testado por outro processo (6)
+Processo 5 sera testado por outro processo (7)
+Processo 6 sera testado por outro processo (4)
+Processo 7 sera testado por outro processo (4)
+O processo 1 testou o processo 3 correto no tempo 390.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 1 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 2 sera testado por outro processo (6)
+Processo 3 sera testado por outro processo (7)
+Processo 4 sera testado por outro processo (0)
+Inserindo 5 na fila, pos 0
+Processo 6 sera testado por outro processo (2)
+Processo 7 sera testado por outro processo (3)
+O processo 1 testou o processo 5 falho no tempo 390.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 3 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Inserindo 2 na fila, pos 0
+Processo 5 sera testado por outro processo (4)
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 3 testou o processo 2 correto no tempo 390.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 3 (cluster 2)
+Processo 0 sera testado por outro processo (2)
+Inserindo 1 na fila, pos 0
+Processo 2 sera testado por outro processo (0)
+Processo 4 sera testado por outro processo (6)
+Processo 5 sera testado por outro processo (7)
+Processo 6 sera testado por outro processo (4)
+Processo 7 sera testado por outro processo (4)
+O processo 3 testou o processo 1 correto no tempo 390.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 3 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 1 sera testado por outro processo (4)
+Processo 2 sera testado por outro processo (6)
+Processo 4 sera testado por outro processo (0)
+Processo 5 sera testado por outro processo (1)
+Processo 6 sera testado por outro processo (2)
+Inserindo 7 na fila, pos 0
+O processo 3 testou o processo 7 correto no tempo 390.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 4 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Processo 2 sera testado por outro processo (3)
+Processo 3 sera testado por outro processo (2)
+Inserindo 5 na fila, pos 0
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 4 testou o processo 5 falho no tempo 390.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 4 (cluster 2)
+Processo 0 sera testado por outro processo (2)
+Processo 1 sera testado por outro processo (3)
+Processo 2 sera testado por outro processo (0)
+Processo 3 sera testado por outro processo (1)
+Processo 5 sera testado por outro processo (7)
+Inserindo 6 na fila, pos 0
+Inserindo 7 na fila, pos 1
+O processo 4 testou o processo 6 correto no tempo 390.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+O processo 4 testou o processo 7 correto no tempo 390.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 4 (cluster 3)
+Inserindo 0 na fila, pos 0
+Inserindo 1 na fila, pos 1
+Processo 2 sera testado por outro processo (6)
+Processo 3 sera testado por outro processo (7)
+Processo 5 sera testado por outro processo (1)
+Processo 6 sera testado por outro processo (2)
+Processo 7 sera testado por outro processo (3)
+O processo 4 testou o processo 0 correto no tempo 390.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+O processo 4 testou o processo 1 correto no tempo 390.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 6 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Processo 2 sera testado por outro processo (3)
+Processo 3 sera testado por outro processo (2)
+Processo 5 sera testado por outro processo (4)
+Inserindo 7 na fila, pos 0
+O processo 6 testou o processo 7 correto no tempo 390.0
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 6 (cluster 2)
+Processo 0 sera testado por outro processo (2)
+Processo 1 sera testado por outro processo (3)
+Processo 2 sera testado por outro processo (0)
+Processo 3 sera testado por outro processo (1)
+Inserindo 4 na fila, pos 0
+Processo 5 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (4)
+O processo 6 testou o processo 4 correto no tempo 390.0
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 6 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 1 sera testado por outro processo (4)
+Inserindo 2 na fila, pos 0
+Processo 3 sera testado por outro processo (7)
+Processo 4 sera testado por outro processo (0)
+Processo 5 sera testado por outro processo (1)
+Processo 7 sera testado por outro processo (3)
+O processo 6 testou o processo 2 correto no tempo 390.0
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 7 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Processo 2 sera testado por outro processo (3)
+Processo 3 sera testado por outro processo (2)
+Processo 5 sera testado por outro processo (4)
+Inserindo 6 na fila, pos 0
+O processo 7 testou o processo 6 correto no tempo 390.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 7 (cluster 2)
+Processo 0 sera testado por outro processo (2)
+Processo 1 sera testado por outro processo (3)
+Processo 2 sera testado por outro processo (0)
+Processo 3 sera testado por outro processo (1)
+Processo 4 sera testado por outro processo (6)
+Inserindo 5 na fila, pos 0
+Processo 6 sera testado por outro processo (4)
+O processo 7 testou o processo 5 falho no tempo 390.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 7 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 1 sera testado por outro processo (4)
+Processo 2 sera testado por outro processo (6)
+Inserindo 3 na fila, pos 0
+Processo 4 sera testado por outro processo (0)
+Processo 5 sera testado por outro processo (1)
+Processo 6 sera testado por outro processo (2)
+O processo 7 testou o processo 3 correto no tempo 390.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 2 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 2:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 2 (cluster 1)
+Processo 0 sera testado por outro processo (1)
+Processo 1 sera testado por outro processo (0)
+Inserindo 3 na fila, pos 0
+Processo 5 sera testado por outro processo (4)
+Processo 6 sera testado por outro processo (7)
+Processo 7 sera testado por outro processo (6)
+O processo 2 testou o processo 3 correto no tempo 411.0
+Vetor de estados do processo 2:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 2 (cluster 2)
+Inserindo 0 na fila, pos 0
+Processo 1 sera testado por outro processo (3)
+Processo 3 sera testado por outro processo (1)
+Processo 4 sera testado por outro processo (6)
+Processo 5 sera testado por outro processo (7)
+Processo 6 sera testado por outro processo (4)
+Processo 7 sera testado por outro processo (4)
+O processo 2 testou o processo 0 correto no tempo 411.0
+Vetor de estados do processo 2:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
+Montando a fila de testes para 2 (cluster 3)
+Processo 0 sera testado por outro processo (4)
+Processo 1 sera testado por outro processo (4)
+Processo 3 sera testado por outro processo (7)
+Processo 4 sera testado por outro processo (0)
+Processo 5 sera testado por outro processo (1)
+Inserindo 6 na fila, pos 0
+Processo 7 sera testado por outro processo (3)
+O processo 2 testou o processo 6 correto no tempo 411.0
+Vetor de estados do processo 2:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 1 | 6: 0 | 7: 0 | 
